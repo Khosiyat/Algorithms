@@ -13,7 +13,7 @@
 
 
 
-*The other Algorithms to learn*
+***The other Algorithms to learn***
 
 
 Minimum Spanning Tree Algorithms:
