@@ -1,71 +1,72 @@
-**___________**
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+**Matching Algorithms**
 
-**___________**
+- [Hopcroft-Karp Algorithm for Bipartite Matching ](https://colab.research.google.com/drive/1bK3I75LaKmyRn1FKEmtjQVDA4Olm3nE_)
+- [Edmonds' Blossom Algorithm for General Matching](https://colab.research.google.com/drive/1yXOWXW_oVMd__yShO3D2PaZHfeFPjAyG)
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+**Minimum Spanning Tree Algorithms**
+- [Kruskal's Algorithm](https://colab.research.google.com/drive/1QDvJ1n1rTbQEgVnLm4arhxKnHjJUGsA5)
 
-**___________**
+**Network Flow Algorithms**
+- [Push-Relabel Algorithm](https://colab.research.google.com/drive/1aNP5cWGpOG-UdWxSfeZ6KFpuJvon2GaY)
+- [Dinic's Algorithm](https://colab.research.google.com/drive/11bYOICJEBkalvv-FxF2ENFjb1KRnUIz6)
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
 
-**___________**
+**The other Algorithms to learn**
+Minimum Spanning Tree Algorithms:
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+Prim's Algorithm
+Kruskal's Algorithm
+Maximum Flow Algorithms:
 
-**___________**
+Ford-Fulkerson Algorithm
+Edmonds-Karp Algorithm
+Shortest Path Algorithms:
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+Network Flow Algorithms:
 
-**___________**
+Dinic's Algorithm
+Push-Relabel Algorithm
+Matching Algorithms:
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+Hopcroft-Karp Algorithm for Bipartite Matching
+Edmonds' Blossom Algorithm for General Matching
+Planarity Testing Algorithms:
 
-**___________**
+Boyer-Myrvold Algorithm
+Graph Coloring Algorithms:
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+Greedy Coloring
+Welsh-Powell Algorithm
+Topological Sorting Algorithms:
 
-**___________**
+Kahn's Algorithm
+Depth-First Search-based Algorithm
+Randomized Algorithms:
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+Randomized Minimum Cut (Karger's Algorithm)
+Monte Carlo Methods for Graph Connectivity
+Graph Partitioning Algorithms:
 
-**___________**
+Spectral Partitioning
+Kernighan-Lin Algorithm
+Graph Drawing Algorithms:
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+Force-Directed Graph Drawing
+Kamada-Kawai Algorithm
+Eulerian Path and Circuit Algorithms:
 
-**___________**
+Hierholzer's Algorithm
+Dominating Set Algorithms:
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+Greedy Dominating Set Algorithm
+Graph Compression Algorithms:
 
-**___________**
+Delta Encoding for Graphs
+Graph Minors
+Graph Metrics:
 
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
-
-**___________**
-
-- [___________](____________)
-- [___________](____________)
-- [___________](____________)
+Eccentricity
+Radius and Diameter
