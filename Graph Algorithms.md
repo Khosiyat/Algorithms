@@ -21,56 +21,69 @@
 Prim's Algorithm
 Kruskal's Algorithm
 
--Maximum Flow Algorithms:
+- Maximum Flow Algorithms:
 
 Ford-Fulkerson Algorithm
 Edmonds-Karp Algorithm
-Shortest Path Algorithms:
+
+- Shortest Path Algorithms:
 
 Bellman-Ford Algorithm
 Floyd-Warshall Algorithm
-Network Flow Algorithms:
+
+- Network Flow Algorithms:
 
 Dinic's Algorithm
 Push-Relabel Algorithm
-Matching Algorithms:
+
+- Matching Algorithms:
 
 Hopcroft-Karp Algorithm for Bipartite Matching
 Edmonds' Blossom Algorithm for General Matching
-Planarity Testing Algorithms:
+
+- Planarity Testing Algorithms:
 
 Boyer-Myrvold Algorithm
-Graph Coloring Algorithms:
+
+- Graph Coloring Algorithms:
 
 Greedy Coloring
 Welsh-Powell Algorithm
-Topological Sorting Algorithms:
+
+- Topological Sorting Algorithms:
 
 Kahn's Algorithm
 Depth-First Search-based Algorithm
-Randomized Algorithms:
+
+- Randomized Algorithms:
 
 Randomized Minimum Cut (Karger's Algorithm)
 Monte Carlo Methods for Graph Connectivity
-Graph Partitioning Algorithms:
+
+- Graph Partitioning Algorithms:
 
 Spectral Partitioning
 Kernighan-Lin Algorithm
-Graph Drawing Algorithms:
+
+- Graph Drawing Algorithms:
 
 Force-Directed Graph Drawing
 Kamada-Kawai Algorithm
-Eulerian Path and Circuit Algorithms:
+
+- Eulerian Path and Circuit Algorithms:
 
 Hierholzer's Algorithm
-Dominating Set Algorithms:
+
+- Dominating Set Algorithms:
 
 Greedy Dominating Set Algorithm
-Graph Compression Algorithms:
+
+- Graph Compression Algorithms:
 
 Delta Encoding for Graphs
 Graph Minors
-Graph Metrics:
+
+- Graph Metrics:
 
 Eccentricity
 Radius and Diameter
