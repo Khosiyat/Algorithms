@@ -12,7 +12,10 @@
 - [Dinic's Algorithm](https://colab.research.google.com/drive/11bYOICJEBkalvv-FxF2ENFjb1KRnUIz6)
 
 
-**The other Algorithms to learn**
+
+*The other Algorithms to learn*
+
+
 Minimum Spanning Tree Algorithms:
 
 Prim's Algorithm
