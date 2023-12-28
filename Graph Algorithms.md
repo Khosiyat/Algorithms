@@ -16,7 +16,7 @@
 ***The other Algorithms to learn***
 
 
--Minimum Spanning Tree Algorithms:
+- Minimum Spanning Tree Algorithms:
 
 Prim's Algorithm
 Kruskal's Algorithm
