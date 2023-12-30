@@ -1,5 +1,5 @@
  - [Sliding Window](https://colab.research.google.com/drive/1PiK9yvnvCAIABHYwN7GJZFdaNFTPEdE2?authuser=0#scrollTo=Ew1FJ2go-DZx)
- -  [Two Pointers](https://colab.research.google.com/drive/1vAEpZVOOR-PvpxTwEKsH7iO_qjMnwVks#scrollTo=3LhSOWo8Xxyw)
+ -  [Two Pointers](https://colab.research.google.com/drive/12U6G1XpbnzyT3OvFC_S5s5u4LmJeg5xa#scrollTo=usw4UlvzUsFr)
  -  [The Fast and Slow pointer](https://colab.research.google.com/drive/1Gny2zTdqxA5Nje6m7mwUYIB2LVbuU90o#scrollTo=uQqvclmdYoLi)
  -  [Fast and Slow pointers](https://colab.research.google.com/drive/12U6G1XpbnzyT3OvFC_S5s5u4LmJeg5xa#scrollTo=usw4UlvzUsFr)
  -  [Cyclic sort](https://colab.research.google.com/drive/1F_jOZdQGyetpFb0F1-xLbWLNEiOypAHw#scrollTo=6r39NEltUpQv)
