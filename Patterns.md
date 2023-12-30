@@ -1,6 +1,6 @@
  - [Sliding Window](https://colab.research.google.com/drive/1PiK9yvnvCAIABHYwN7GJZFdaNFTPEdE2?authuser=0#scrollTo=Ew1FJ2go-DZx)
  -  [Two Pointers](https://colab.research.google.com/drive/1vAEpZVOOR-PvpxTwEKsH7iO_qjMnwVks#scrollTo=3LhSOWo8Xxyw)
- -  [________](________)
+ -  [The Fast and Slow pointer](https://colab.research.google.com/drive/1Gny2zTdqxA5Nje6m7mwUYIB2LVbuU90o#scrollTo=eRya8lh9UtUL)
  -  [________](________)
  -  [________](________)
  -  [________](________)
