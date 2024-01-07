@@ -14,7 +14,6 @@
 **Centrality Algorithms**
 
 - [PageRank](https://colab.research.google.com/drive/14rlwsRwMQP2ZI1UrmKvmMqBkqCWXJ-3s#scrollTo=nt0Q1uUzl3T3)
-- [Betweenness Centrality](https://colab.research.google.com/drive/19mOz5SWl0ZFjrYdoYATtKxgH3y3GTF_X?usp=drive_link)
 - [Betweenness Centrality](https://colab.research.google.com/drive/1YwNuvSw2e8_fsPWYv6XBGRZ1cDPJ1eJV?usp=drive_link)
 - [Closeness Centrality](https://colab.research.google.com/drive/1J7JH3Al5exQWf3BPHBsL2Su-Q0DES_5P?usp=drive_link)
 
