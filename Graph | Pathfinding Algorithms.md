@@ -1,8 +1,6 @@
 **Pathfinding Algorithms**
 
-- [Breadth-First Search](https://colab.research.google.com/drive/1ziwl0vB7Jf5EFO8Pb1YNbSOHe3C4LfcU?usp=drive_link)
-
-- [Depth-First Search](https://colab.research.google.com/drive/19xiWOKmLl0s9aPo6AWZsp3_D8rnHWDF4?usp=drive_link)
+- [Breadth-First Search & Depth-First Search](https://colab.research.google.com/drive/1ziwl0vB7Jf5EFO8Pb1YNbSOHe3C4LfcU?usp=drive_link)
 
 - [Dijkstra's Algorithm](https://colab.research.google.com/drive/1kLiZOcEuuTzgWZogYcxzsdIfTM2Iw5xc?usp=drive_link)
 
