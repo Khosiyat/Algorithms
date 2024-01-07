@@ -20,7 +20,6 @@
 
 **Community Detection Algorithms**
 
-- [Louvain Modularity](https://colab.research.google.com/drive/106nioBkYwU7vYu4fRRWuEbKEUu6RYtuF?usp=drive_link)
 - [Louvain Modularity](https://colab.research.google.com/drive/1ov_V7tEjM_j3NQiX1Ju_udImUG7hgHUw?usp=drive_link)
 - [Label Propagation](https://colab.research.google.com/drive/134u0OsMQ0hAuK1eVZRqq6qwQ9HbuL-dK?usp=drive_link)
 - [Connected Components](https://colab.research.google.com/drive/1DmZp5pZiLY2Ep1PS5wrFqxBAMMUPnJDJ?usp=drive_link)
