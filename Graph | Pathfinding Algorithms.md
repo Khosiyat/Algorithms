@@ -8,7 +8,7 @@
 
 - [Shortest Path](https://colab.research.google.com/drive/1jQXlunfKFWsyuxj51V89k1Xp5KlVfhcn?usp=drive_link)
 
-- [All Shortest Paths](https://colab.research.google.com/drive/14v9ikd_lLLLVjFZAtnX_WNTrf-ZP1ZUC#scrollTo=J7pNLUADv5rE)
+
 
 
 **Centrality Algorithms**
