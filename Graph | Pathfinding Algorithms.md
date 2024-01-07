@@ -28,7 +28,6 @@
 **Similarity Algorithms**
 
 - [Jaccard Similarity](https://colab.research.google.com/drive/1q7D0Vk0PvMGFRYW_c44uodewlm3oAweF?usp=drive_link)
-- [Jaccard Similarity](https://colab.research.google.com/drive/1-at0f8pd08X6zJ77vdcisUBYn-hBEirZ?usp=drive_link)
 - [Cosine Similarity](https://colab.research.google.com/drive/15woU88fFoPe3fDOwh3IAVwRtkqHxsSaU?usp=drive_link)
 
 
