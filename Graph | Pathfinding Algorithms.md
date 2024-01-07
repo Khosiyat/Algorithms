@@ -6,8 +6,6 @@
 
 - [Dijkstra's Algorithm](https://colab.research.google.com/drive/1GCRci5mpruZ77UoGPQLKJ8cX96vnQRLz?usp=drive_link)
 
-- [Dijkstra's Algorithm](https://colab.research.google.com/drive/1GCRci5mpruZ77UoGPQLKJ8cX96vnQRLz?usp=drive_link)
-
 - [A* Algorithm](https://colab.research.google.com/drive/18_roYoKM96UqgHkVOTgCHT7ZcGLTxfJA?usp=drive_link)
 
 - [Shortest Path](https://colab.research.google.com/drive/1jQXlunfKFWsyuxj51V89k1Xp5KlVfhcn?usp=drive_link)
