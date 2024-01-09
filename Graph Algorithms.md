@@ -1,10 +1,10 @@
 | Library            | Pros                                                         | Cons                                       | GitHub Repository                                          |
 |--------------------|--------------------------------------------------------------|--------------------------------------------|-------------------------------------------------------------|
-| **D3.js with React**| **$${\color{green}Extremely powerful and flexible for custom visualizations}$$**| **$${\color{green}Steeper learning curve}$$**                 | [**$${\color{green}D3.js}$$**](https://github.com/d3/d3), [**$${\color{green}React D3 Library}$$**](https://github.com/react-d3-library/react-d3-library)               |
+| **D3.js with React**| **$${\color{green}Extremely powerful and flexible for custom visualizations}$$**| **$${\color{green}Steeper learning curve}$$**                 | [**$${\color{green}D3.js}$$**](https://github.com/d3/d3), [\color{green}React D3 Library](https://github.com/react-d3-library/react-d3-library)               |
 | Chart.js with React | - Simple and easy to use                                     | - Limited customization options            | [Chart.js](https://github.com/chartjs/Chart.js), [React Chartjs 2](https://github.com/jerairrest/react-chartjs-2)         |
 | Victory            | - Designed specifically for React                            | - Limited chart types compared to D3.js    | [Victory](https://github.com/FormidableLabs/victory)          |
 | Nivo               | - Rich set of customizable charts                             | - May be overkill for simple visualizations | [Nivo](https://github.com/plouc/nivo)                       |
-| **Recharts**       | **$${\color{green}Built with React and D3, simplifying chart creation}$$**     | **$${\color{green}Limited compared to D3.js in advanced customization}$$** | [**$${\color{green}Recharts}$$**](https://github.com/recharts/recharts)           |
+| **Recharts**       | **$${\color{green}Built with React and D3, simplifying chart creation}$$**     | **$${\color{green}Limited compared to D3.js in advanced customization}$$** | [\color{green}Recharts](https://github.com/recharts/recharts)           |
 | React-Vis          | - Provides a set of flexible and expressive charts           | - Less feature-rich compared to some other libraries | [React-Vis](https://github.com/uber/react-vis)            |
 
 
