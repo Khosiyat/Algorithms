@@ -4,3 +4,13 @@
 | [Dijkstra's Algorithm](https://colab.research.google.com/drive/1kLiZOcEuuTzgWZogYcxzsdIfTM2Iw5xc?usp=drive_link) | [Betweenness Centrality](https://colab.research.google.com/drive/1YwNuvSw2e8_fsPWYv6XBGRZ1cDPJ1eJV?usp=drive_link) | [Label Propagation](https://colab.research.google.com/drive/134u0OsMQ0hAuK1eVZRqq6qwQ9HbuL-dK?usp=drive_link) | [Cosine Similarity](https://colab.research.google.com/drive/15woU88fFoPe3fDOwh3IAVwRtkqHxsSaU?usp=drive_link) | [Clustering Algorithms (K-Means)](https://colab.research.google.com/drive/1YBrQdsTAnvyO_nH7Qzie6ty8yQQ88u7z?usp=drive_link) |
 | [A* Algorithm](https://colab.research.google.com/drive/18_roYoKM96UqgHkVOTgCHT7ZcGLTxfJA?usp=drive_link) |[Closeness Centrality](https://colab.research.google.com/drive/1J7JH3Al5exQWf3BPHBsL2Su-Q0DES_5P?usp=drive_link)| [Connected Components](https://colab.research.google.com/drive/1DmZp5pZiLY2Ep1PS5wrFqxBAMMUPnJDJ?usp=drive_link) |  |  |
 | [Shortest Path](https://colab.research.google.com/drive/1jQXlunfKFWsyuxj51V89k1Xp5KlVfhcn?usp=drive_link) |  |  |  | |
+
+
+
+
+SSH into the server:
+Open your terminal and use the following command to connect to the server using the provided SSH key and username:
+```
+ssh blggext@canmove-dev.ekol.lu.se
+```
+
