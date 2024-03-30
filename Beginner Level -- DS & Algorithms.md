@@ -149,8 +149,10 @@ An array is a collection of elements, each identified by an index or key. It is 
    - Traversing an array means visiting each element of the array one by one.
    - This can be done using loops such as for loop or while loop.
 
-    - [Dynamic Arrays]()
-    - Multi-dimensional Arrays
+
+    [Dynamic Arrays]()
+    [Multi-dimensional Arrays]()
+    
 2. Linked Lists
     - Singly Linked Lists
     - Doubly Linked Lists
