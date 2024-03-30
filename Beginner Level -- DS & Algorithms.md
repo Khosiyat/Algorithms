@@ -248,13 +248,12 @@ An array is a collection of elements, each identified by an index or key. It is 
 <details>
 <summary>Hands-on Coding Exercises for Each Data Structure and Algorithm</summary>
 
-- [Hash Tables](#hash-tables)
-- [Heaps and Priority Queues](#heaps-and-priority-queues)
-- [Disjoint Set Union (Union Find)](#disjoint-set-union-union-find)
-- [Trie](#trie)
-- [Red-Black Trees](#red-black-trees)
-- [Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)](#advanced-graph-algorithms-minimum-spanning-trees-network-flow)
-
+- [Hash Tables](https://colab.research.google.com/drive/1rF0lRZjb92R48bsLzEVFB5MXVcJLFxrk#scrollTo=YXY45WGzixXH)
+- [Heaps and Priority Queues](https://colab.research.google.com/drive/1rF0lRZjb92R48bsLzEVFB5MXVcJLFxrk#scrollTo=YXY45WGzixXH)
+- [Disjoint Set Union (Union Find)](https://colab.research.google.com/drive/1rF0lRZjb92R48bsLzEVFB5MXVcJLFxrk#scrollTo=YXY45WGzixXH)
+- [Trie](https://colab.research.google.com/drive/1rF0lRZjb92R48bsLzEVFB5MXVcJLFxrk#scrollTo=YXY45WGzixXH)
+- [Red-Black Trees](https://colab.research.google.com/drive/1rF0lRZjb92R48bsLzEVFB5MXVcJLFxrk#scrollTo=YXY45WGzixXH)
+- [Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)](https://colab.research.google.com/drive/1rF0lRZjb92R48bsLzEVFB5MXVcJLFxrk#scrollTo=YXY45WGzixXH)
 </details>
 
 ----------------------------------------------------------------------------------------------------------------------------------
