@@ -198,7 +198,9 @@ An array is a collection of elements, each identified by an index or key. It is 
 </details>
 
 </details>
+
 ----------------------------------------------------------------------------------------------------------------------------------
+
 <details>
 <summary>[Algorithms](#algorithms)</summary>
 
