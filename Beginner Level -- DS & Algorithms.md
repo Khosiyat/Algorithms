@@ -253,58 +253,39 @@ Implementing Data Structures and Algorithms in a Language of Choice (e.g., Pytho
 <details>
 <summary>Hands-on Coding Exercises for Each Data Structure and Algorithm</summary>
 
-[Hands-on Coding Exercises](#) <!-- Replace # with the hyperlink for the exercises -->
+- [Hash Tables](#hash-tables)
+- [Heaps and Priority Queues](#heaps-and-priority-queues)
+- [Disjoint Set Union (Union Find)](#disjoint-set-union-union-find)
+- [Trie](#trie)
+- [Red-Black Trees](#red-black-trees)
+- [Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)](#advanced-graph-algorithms-minimum-spanning-trees-network-flow)
 
 </details>
 
 <details>
 <summary>Additional Topics (Optional)</summary>
 
-[Additional Topics](#) <!-- Replace # with the hyperlink for additional topics -->
+<!-- Add additional topics here -->
 
 </details>
 
-<details>
-<summary>Hash Tables</summary>
+## Hash Tables
+Content for Hash Tables goes here.
 
-[Hash Tables](#) <!-- Replace # with the hyperlink for hash tables -->
+## Heaps and Priority Queues
+Content for Heaps and Priority Queues goes here.
 
-</details>
+## Disjoint Set Union (Union Find)
+Content for Disjoint Set Union (Union Find) goes here.
 
-<details>
-<summary>Heaps and Priority Queues</summary>
+## Trie
+Content for Trie goes here.
 
-[Heaps and Priority Queues](#) <!-- Replace # with the hyperlink for heaps and priority queues -->
+## Red-Black Trees
+Content for Red-Black Trees goes here.
 
-</details>
-
-<details>
-<summary>Disjoint Set Union (Union Find)</summary>
-
-[Disjoint Set Union (Union Find)](#) <!-- Replace # with the hyperlink for disjoint set union -->
-
-</details>
-
-<details>
-<summary>Trie</summary>
-
-[Trie](#) <!-- Replace # with the hyperlink for trie -->
-
-</details>
-
-<details>
-<summary>Red-Black Trees</summary>
-
-[Red-Black Trees](#) <!-- Replace # with the hyperlink for red-black trees -->
-
-</details>
-
-<details>
-<summary>Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)</summary>
-
-[Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)](#) <!-- Replace # with the hyperlink for advanced graph algorithms -->
-
-</details>
+## Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)
+Content for Advanced Graph Algorithms goes here.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
