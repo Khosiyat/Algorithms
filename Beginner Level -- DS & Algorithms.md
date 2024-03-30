@@ -190,6 +190,7 @@ An array is a collection of elements, each identified by an index or key. It is 
 - [Applications (e.g., Image Processing)](#applications-eg-image-processing)
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Algorithms</summary>
 
@@ -212,12 +213,14 @@ An array is a collection of elements, each identified by an index or key. It is 
     - Knapsack Problem
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Implementation</summary>
 
 Implementing Data Structures and Algorithms in a Language of Choice (e.g., Python, Java, C++)
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Hands-on Coding Exercises for Each Data Structure and Algorithm</summary>
 
@@ -230,6 +233,7 @@ Implementing Data Structures and Algorithms in a Language of Choice (e.g., Pytho
     - Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Resources</summary>
 
@@ -239,6 +243,7 @@ Implementing Data Structures and Algorithms in a Language of Choice (e.g., Pytho
 - Interactive Visualizations for Data Structures and Algorithms
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Projects</summary>
 
@@ -246,6 +251,7 @@ Implementing Data Structures and Algorithms in a Language of Choice (e.g., Pytho
 - Solving Real-world Problems (e.g., finding shortest routes on a map)
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Assessment</summary>
 
@@ -254,6 +260,7 @@ Implementing Data Structures and Algorithms in a Language of Choice (e.g., Pytho
 - Final Project
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Conclusion</summary>
 
