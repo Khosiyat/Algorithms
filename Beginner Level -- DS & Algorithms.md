@@ -124,7 +124,9 @@ Clicking on the dropdown arrow will reveal the topics listed under each section.
 </details>
 
 ----------------------------------------------------------------------------------------------------------------------------------
-
+<details>
+<summary>[Data Structures](#DataStructures)</summary>
+ 
 <details>
 <summary>[Arrays](#arrays)</summary>
 
