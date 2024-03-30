@@ -149,31 +149,44 @@ An array is a collection of elements, each identified by an index or key. It is 
    - Traversing an array means visiting each element of the array one by one.
    - This can be done using loops such as for loop or while loop.
 
+- [Dynamic Arrays](#dynamic-arrays)
+- [Multi-dimensional Arrays](#multi-dimensional-arrays)
+</details>
 
-    [Dynamic Arrays](https://)
-    [Multi-dimensional Arrays](https://)
-    [Link text Here](https://link-url-here.org)
-    
-2. Linked Lists
-    - Singly Linked Lists
-    - Doubly Linked Lists
-    - Circular Linked Lists
-    - Comparison with Arrays
-3. Trees
-    - Binary Trees
-    - Binary Search Trees (BST)
-    - AVL Trees (Balanced BST)
-    - Tree Traversal Algorithms (Inorder, Preorder, Postorder)
-    - Tree Applications (e.g., Expression Trees)
-4. Graphs
-    - Introduction to Graphs
-    - Representations (Adjacency Matrix, Adjacency List)
-    - Traversal Algorithms (BFS, DFS)
-    - Shortest Path Algorithms (Dijkstra's, Bellman-Ford)
-5. Matrices
-    - Basic Operations
-    - Sparse Matrices
-    - Applications (e.g., Image Processing)
+<details>
+<summary>[Linked Lists](#linked-lists)</summary>
+
+- [Singly Linked Lists](#singly-linked-lists)
+- [Doubly Linked Lists](#doubly-linked-lists)
+- [Circular Linked Lists](#circular-linked-lists)
+- [Comparison with Arrays](#comparison-with-arrays)
+</details>
+
+<details>
+<summary>[Trees](#trees)</summary>
+
+- [Binary Trees](#binary-trees)
+- [Binary Search Trees (BST)](#binary-search-trees-bst)
+- [AVL Trees (Balanced BST)](#avl-trees-balanced-bst)
+- [Tree Traversal Algorithms (Inorder, Preorder, Postorder)](#tree-traversal-algorithms-inorder-preorder-postorder)
+- [Tree Applications (e.g., Expression Trees)](#tree-applications-eg-expression-trees)
+</details>
+
+<details>
+<summary>[Graphs](#graphs)</summary>
+
+- [Introduction to Graphs](#introduction-to-graphs)
+- [Representations (Adjacency Matrix, Adjacency List)](#representations-adjacency-matrix-adjacency-list)
+- [Traversal Algorithms (BFS, DFS)](#traversal-algorithms-bfs-dfs)
+- [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](#shortest-path-algorithms-dijkstras-bellman-ford)
+</details>
+
+<details>
+<summary>[Matrices](#matrices)</summary>
+
+- [Basic Operations](#basic-operations)
+- [Sparse Matrices](#sparse-matrices)
+- [Applications (e.g., Image Processing)](#applications-eg-image-processing)
 </details>
 
 <details>
