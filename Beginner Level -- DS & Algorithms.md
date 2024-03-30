@@ -196,26 +196,73 @@ An array is a collection of elements, each identified by an index or key. It is 
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <details>
-<summary>Algorithms</summary>
+<summary>[Algorithms](#algorithms)</summary>
 
-1. Sorting Algorithms
-    - Bubble Sort
-    - Selection Sort
-    - Insertion Sort
-    - Merge Sort
-    - Quick Sort
-2. Searching Algorithms
-    - Linear Search
-    - Binary Search
-3. Graph Algorithms
-    - Depth-First Search (DFS)
-    - Breadth-First Search (BFS)
-    - Shortest Path Algorithms (Dijkstra's, Bellman-Ford)
-4. Dynamic Programming
-    - Introduction and Basics
-    - Fibonacci Series
-    - Knapsack Problem
+<details>
+<summary>[Sorting Algorithms](#sorting-algorithms)</summary>
+
+- [Bubble Sort](#bubble-sort)
+- [Selection Sort](#selection-sort)
+- [Insertion Sort](#insertion-sort)
+- [Merge Sort](#merge-sort)
+- [Quick Sort](#quick-sort)
+
 </details>
+
+<details>
+<summary>[Searching Algorithms](#searching-algorithms)</summary>
+
+- [Linear Search](#linear-search)
+- [Binary Search](#binary-search)
+
+</details>
+
+<details>
+<summary>[Graph Algorithms](#graph-algorithms)</summary>
+
+- [Depth-First Search (DFS)](#depth-first-search-dfs)
+- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
+- [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](#shortest-path-algorithms-dijkstras-bellman-ford)
+
+</details>
+
+<details>
+<summary>[Dynamic Programming](#dynamic-programming)</summary>
+
+- [Introduction and Basics](#introduction-and-basics)
+- [Fibonacci Series](#fibonacci-series)
+- [Knapsack Problem](#knapsack-problem)
+
+</details>
+
+</details>
+
+## Algorithms
+
+### Sorting Algorithms
+
+- [Bubble Sort](#bubble-sort)
+- [Selection Sort](#selection-sort)
+- [Insertion Sort](#insertion-sort)
+- [Merge Sort](#merge-sort)
+- [Quick Sort](#quick-sort)
+
+### Searching Algorithms
+
+- [Linear Search](#linear-search)
+- [Binary Search](#binary-search)
+
+### Graph Algorithms
+
+- [Depth-First Search (DFS)](#depth-first-search-dfs)
+- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
+- [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](#shortest-path-algorithms-dijkstras-bellman-ford)
+
+### Dynamic Programming
+
+- [Introduction and Basics](#introduction-and-basics)
+- [Fibonacci Series](#fibonacci-series)
+- [Knapsack Problem](#knapsack-problem)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <details>
