@@ -128,7 +128,6 @@ Clicking on the dropdown arrow will reveal the topics listed under each section.
 <details>
 <summary>[Arrays](#arrays)</summary>
 
- <details>
  1. Arrays
 An array is a collection of elements, each identified by an index or key. It is one of the simplest and most widely used data structures. Arrays offer efficient random access to elements based on their indices.
 
