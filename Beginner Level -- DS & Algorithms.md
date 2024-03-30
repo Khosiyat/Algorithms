@@ -262,32 +262,6 @@ Implementing Data Structures and Algorithms in a Language of Choice (e.g., Pytho
 
 </details>
 
-<details>
-<summary>Additional Topics (Optional)</summary>
-
-<!-- Add additional topics here -->
-
-</details>
-
-## Hash Tables
-Content for Hash Tables goes here.
-
-## Heaps and Priority Queues
-Content for Heaps and Priority Queues goes here.
-
-## Disjoint Set Union (Union Find)
-Content for Disjoint Set Union (Union Find) goes here.
-
-## Trie
-Content for Trie goes here.
-
-## Red-Black Trees
-Content for Red-Black Trees goes here.
-
-## Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)
-Content for Advanced Graph Algorithms goes here.
-
-
 ----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Resources</summary>
