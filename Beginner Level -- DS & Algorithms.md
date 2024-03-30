@@ -1,33 +1,3 @@
-| Data Structures | Implementation Details |
-|-----------------|------------------------|
-| <details>       | <details>              |
-| <summary>[Arrays](#arrays)</summary>             | <summary>[Arrays](#arrays)</summary>             |
-| - [Definition and Basic Operations](#definition-and-basic-operations) | - [Definition and Basic Operations](#definition-and-basic-operations) |
-| - [Dynamic Arrays](#dynamic-arrays)             | - [Dynamic Arrays](#dynamic-arrays)             |
-| - [Multi-dimensional Arrays](#multi-dimensional-arrays) | - [Multi-dimensional Arrays](#multi-dimensional-arrays) |
-| <summary>[Linked Lists](#linked-lists)</summary> | <summary>[Linked Lists](#linked-lists)</summary> |
-| - [Singly Linked Lists](#singly-linked-lists)   | - [Singly Linked Lists](#singly-linked-lists)   |
-| - [Doubly Linked Lists](#doubly-linked-lists)   | - [Doubly Linked Lists](#doubly-linked-lists)   |
-| - [Circular Linked Lists](#circular-linked-lists) | - [Circular Linked Lists](#circular-linked-lists) |
-| - [Comparison with Arrays](#comparison-with-arrays) | - [Comparison with Arrays](#comparison-with-arrays) |
-| <summary>[Trees](#trees)</summary>             | <summary>[Trees](#trees)</summary>             |
-| - [Binary Trees](#binary-trees)                 | - [Binary Trees](#binary-trees)                 |
-| - [Binary Search Trees (BST)](#binary-search-trees-bst) | - [Binary Search Trees (BST)](#binary-search-trees-bst) |
-| - [AVL Trees (Balanced BST)](#avl-trees-balanced-bst) | - [AVL Trees (Balanced BST)](#avl-trees-balanced-bst) |
-| - [Tree Traversal Algorithms (Inorder, Preorder, Postorder)](#tree-traversal-algorithms-inorder-preorder-postorder) | - [Tree Traversal Algorithms (Inorder, Preorder, Postorder)](#tree-traversal-algorithms-inorder-preorder-postorder) |
-| - [Tree Applications (e.g., Expression Trees)](#tree-applications-eg-expression-trees) | - [Tree Applications (e.g., Expression Trees)](#tree-applications-eg-expression-trees) |
-| <summary>[Graphs](#graphs)</summary>           | <summary>[Graphs](#graphs)</summary>           |
-| - [Introduction to Graphs](#introduction-to-graphs) | - [Introduction to Graphs](#introduction-to-graphs) |
-| - [Representations (Adjacency Matrix, Adjacency List)](#representations-adjacency-matrix-adjacency-list) | - [Representations (Adjacency Matrix, Adjacency List)](#representations-adjacency-matrix-adjacency-list) |
-| - [Traversal Algorithms (BFS, DFS)](#traversal-algorithms-bfs-dfs) | - [Traversal Algorithms (BFS, DFS)](#traversal-algorithms-bfs-dfs) |
-| - [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](#shortest-path-algorithms-dijkstras-bellman-ford) | - [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](#shortest-path-algorithms-dijkstras-bellman-ford) |
-| <summary>[Matrices](#matrices)</summary>       | <summary>[Matrices](#matrices)</summary>       |
-| - [Basic Operations](#basic-operations)       | - [Basic Operations](#basic-operations)       |
-| - [Sparse Matrices](#sparse-matrices)         | - [Sparse Matrices](#sparse-matrices)         |
-| - [Applications (e.g., Image Processing)](#applications-eg-image-processing) | - [Applications (e.g., Image Processing)](#applications-eg-image-processing) |
-| </details>                                     | </details>                                     |
-
-
 <details>
 <summary>Introduction</summary>
 
