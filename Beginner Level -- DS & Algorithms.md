@@ -123,6 +123,8 @@ Data structures and algorithms are the building blocks of modern software develo
 
 <details>
 <summary>[Arrays](#arrays)</summary>
+
+ <details>
  1. Arrays
     
     # Array
@@ -194,6 +196,7 @@ An array is a collection of elements, each identified by an index or key. It is 
 - [Applications (e.g., Image Processing)](#applications-eg-image-processing)
 </details>
 
+</details>
 ----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>[Algorithms](#algorithms)</summary>
