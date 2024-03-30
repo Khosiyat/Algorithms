@@ -1,3 +1,5 @@
+
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Introduction</summary>
 
@@ -57,6 +59,7 @@ For each data structure, we will explore its properties, operations, and common 
 Data structures and algorithms are the bedrock of computer science and programming. By mastering these concepts, you will become a more proficient programmer capable of tackling a wide range of problems efficiently.
 
 
+----------------------------------------------------------------------------------------------------------------------------------
 
 # Importance and Applications of Data Structures and Algorithms
 
