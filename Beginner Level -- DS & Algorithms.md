@@ -128,9 +128,6 @@ Data structures and algorithms are the building blocks of modern software develo
 
  <details>
  1. Arrays
-    
-    # Array
-
 An array is a collection of elements, each identified by an index or key. It is one of the simplest and most widely used data structures. Arrays offer efficient random access to elements based on their indices.
 
 ## Basic Operations:
