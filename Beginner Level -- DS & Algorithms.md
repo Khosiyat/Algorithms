@@ -165,7 +165,7 @@ An array is a collection of elements, each identified by an index or key. It is 
 <details>
 <summary>[Linked Lists](#linked-lists)</summary>
 
-- [Singly Linked Lists]([#singly-linked-lists](https://colab.research.google.com/drive/1lJ6lh2CBaej_AOeoflVkhBwTaaYBPl6u#scrollTo=qPTpo3auhr3Z)
+- [Singly Linked Lists](https://colab.research.google.com/drive/1lJ6lh2CBaej_AOeoflVkhBwTaaYBPl6u#scrollTo=qPTpo3auhr3Z)
 - [Doubly Linked Lists](https://colab.research.google.com/drive/1lJ6lh2CBaej_AOeoflVkhBwTaaYBPl6u#scrollTo=qPTpo3auhr3Z)
 - [Circular Linked Lists](https://colab.research.google.com/drive/1lJ6lh2CBaej_AOeoflVkhBwTaaYBPl6u#scrollTo=qPTpo3auhr3Z)
 - [Comparison with Arrays](https://colab.research.google.com/drive/1lJ6lh2CBaej_AOeoflVkhBwTaaYBPl6u#scrollTo=qPTpo3auhr3Z)
