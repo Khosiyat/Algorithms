@@ -60,6 +60,7 @@ Data structures and algorithms are the bedrock of computer science and programmi
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
+Clicking on the dropdown arrow will reveal the topics listed under each section. Each topic is hyperlinked to its corresponding implementation section within the document.
 
 # Importance and Applications of Data Structures and Algorithms
 
@@ -239,14 +240,6 @@ An array is a collection of elements, each identified by an index or key. It is 
 
 </details>
 
-</details>
-
-
-----------------------------------------------------------------------------------------------------------------------------------
-<details>
-<summary>Implementation</summary>
-
-Implementing Data Structures and Algorithms in a Language of Choice (e.g., Python, Java, C++)
 </details>
 
 ----------------------------------------------------------------------------------------------------------------------------------
