@@ -208,37 +208,37 @@ An array is a collection of elements, each identified by an index or key. It is 
 <details>
 <summary>[Sorting Algorithms](#sorting-algorithms)</summary>
 
-- [Bubble Sort](#bubble-sort)
-- [Selection Sort](#selection-sort)
-- [Insertion Sort](#insertion-sort)
-- [Merge Sort](#merge-sort)
-- [Quick Sort](#quick-sort)
+- [Bubble Sort](https://colab.research.google.com/drive/1FdxpNNTcg8ePZ43TIVkwsZwG8uBxRefU#scrollTo=Kc2qwdeIcfg0)
+- [Selection Sort](https://colab.research.google.com/drive/1FdxpNNTcg8ePZ43TIVkwsZwG8uBxRefU#scrollTo=Kc2qwdeIcfg0)
+- [Insertion Sort](https://colab.research.google.com/drive/1FdxpNNTcg8ePZ43TIVkwsZwG8uBxRefU#scrollTo=Kc2qwdeIcfg0)
+- [Merge Sort](https://colab.research.google.com/drive/1FdxpNNTcg8ePZ43TIVkwsZwG8uBxRefU#scrollTo=Kc2qwdeIcfg0)
+- [Quick Sort](https://colab.research.google.com/drive/1FdxpNNTcg8ePZ43TIVkwsZwG8uBxRefU#scrollTo=Kc2qwdeIcfg0)
 
 </details>
 
 <details>
 <summary>[Searching Algorithms](#searching-algorithms)</summary>
 
-- [Linear Search](#linear-search)
-- [Binary Search](#binary-search)
+- [Linear Search](https://colab.research.google.com/drive/1YgXvRswJg8cqnpUjC1cb_Ce3w8F1PbTs#scrollTo=ZpUVITi2dASx)
+- [Binary Search](https://colab.research.google.com/drive/1YgXvRswJg8cqnpUjC1cb_Ce3w8F1PbTs#scrollTo=ZpUVITi2dASx)
 
 </details>
 
 <details>
 <summary>[Graph Algorithms](#graph-algorithms)</summary>
 
-- [Depth-First Search (DFS)](#depth-first-search-dfs)
-- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
-- [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](#shortest-path-algorithms-dijkstras-bellman-ford)
+- [Depth-First Search (DFS)](https://colab.research.google.com/drive/1DBt8nKOT8ImSmaqOBUzKeHr2HL9g3_z8#scrollTo=Ovxpmy9leMf0)
+- [Breadth-First Search (BFS)](https://colab.research.google.com/drive/1DBt8nKOT8ImSmaqOBUzKeHr2HL9g3_z8#scrollTo=Ovxpmy9leMf0)
+- [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](https://colab.research.google.com/drive/1DBt8nKOT8ImSmaqOBUzKeHr2HL9g3_z8#scrollTo=Ovxpmy9leMf0)
 
 </details>
 
 <details>
 <summary>[Dynamic Programming](#dynamic-programming)</summary>
 
-- [Introduction and Basics](#introduction-and-basics)
-- [Fibonacci Series](#fibonacci-series)
-- [Knapsack Problem](#knapsack-problem)
+- [Introduction and Basics](https://colab.research.google.com/drive/1cj5_nh76SFtmaaRttm3bgsvAplxzcHOT#scrollTo=psJG2dwyp2RS)
+- [Fibonacci Series](https://colab.research.google.com/drive/1cj5_nh76SFtmaaRttm3bgsvAplxzcHOT#scrollTo=psJG2dwyp2RS)
+- [Knapsack Problem](https://colab.research.google.com/drive/1cj5_nh76SFtmaaRttm3bgsvAplxzcHOT#scrollTo=psJG2dwyp2RS)
 
 </details>
 
