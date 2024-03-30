@@ -119,7 +119,7 @@ Data structures and algorithms are the building blocks of modern software develo
 
 <details>
 <summary>[Arrays](#arrays)</summary>
-*Tabspace** 1. Arrays
+*Tabspace**Tabspace* 1. Arrays
     
     # Array
 
