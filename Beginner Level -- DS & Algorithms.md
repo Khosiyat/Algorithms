@@ -118,8 +118,7 @@ Data structures and algorithms are the building blocks of modern software develo
 </details>
 
 <details>
-<summary>Data Structures</summary>
-
+<summary>[Arrays](#arrays)</summary>
 1. Arrays
     
     # Array
@@ -149,6 +148,8 @@ An array is a collection of elements, each identified by an index or key. It is 
    - Traversing an array means visiting each element of the array one by one.
    - This can be done using loops such as for loop or while loop.
 
+
+- [Definition and Basic Operations](#definition-and-basic-operations)
 - [Dynamic Arrays](#dynamic-arrays)
 - [Multi-dimensional Arrays](#multi-dimensional-arrays)
 </details>
