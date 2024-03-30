@@ -115,7 +115,7 @@ Data structures and algorithms are the building blocks of modern software develo
 </details>
 
 ----------------------------------------------------------------------------------------------------------------------------------
-Clicking on the dropdown arrow will reveal the topics listed under each section. Each topic is hyperlinked to its corresponding implementation section within the document.
+Clicking on the dropdown arrow will reveal the topics listed under each section. Each topic is hyperlinked to its corresponding implementing code block sections within the document.
 
 <details>
 <summary>Overview of Data Structures and Algorithms</summary>
