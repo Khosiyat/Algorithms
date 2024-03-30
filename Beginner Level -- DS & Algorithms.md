@@ -174,28 +174,28 @@ An array is a collection of elements, each identified by an index or key. It is 
 <details>
 <summary>[Trees](#trees)</summary>
 
-- [Binary Trees](#binary-trees)
-- [Binary Search Trees (BST)](#binary-search-trees-bst)
-- [AVL Trees (Balanced BST)](#avl-trees-balanced-bst)
-- [Tree Traversal Algorithms (Inorder, Preorder, Postorder)](#tree-traversal-algorithms-inorder-preorder-postorder)
-- [Tree Applications (e.g., Expression Trees)](#tree-applications-eg-expression-trees)
+- [Binary Trees](https://colab.research.google.com/drive/13MVjXou7b2ckWTTNf4syED5Z65WjfGzW#scrollTo=oj0BZQqDkde7)
+- [Binary Search Trees (BST)](https://colab.research.google.com/drive/13MVjXou7b2ckWTTNf4syED5Z65WjfGzW#scrollTo=oj0BZQqDkde7)
+- [AVL Trees (Balanced BST)](https://colab.research.google.com/drive/13MVjXou7b2ckWTTNf4syED5Z65WjfGzW#scrollTo=oj0BZQqDkde7)
+- [Tree Traversal Algorithms (Inorder, Preorder, Postorder)](https://colab.research.google.com/drive/13MVjXou7b2ckWTTNf4syED5Z65WjfGzW#scrollTo=oj0BZQqDkde7)
+- [Tree Applications (e.g., Expression Trees)](https://colab.research.google.com/drive/13MVjXou7b2ckWTTNf4syED5Z65WjfGzW#scrollTo=oj0BZQqDkde7)
 </details>
 
 <details>
 <summary>[Graphs](#graphs)</summary>
 
-- [Introduction to Graphs](#introduction-to-graphs)
-- [Representations (Adjacency Matrix, Adjacency List)](#representations-adjacency-matrix-adjacency-list)
-- [Traversal Algorithms (BFS, DFS)](#traversal-algorithms-bfs-dfs)
-- [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](#shortest-path-algorithms-dijkstras-bellman-ford)
+- [Introduction to Graphs](https://colab.research.google.com/drive/16wzhuKChQSex59M8GyG8esxcS2GcIO99#scrollTo=VS6S4GZUluP7)
+- [Representations (Adjacency Matrix, Adjacency List)](https://colab.research.google.com/drive/16wzhuKChQSex59M8GyG8esxcS2GcIO99#scrollTo=VS6S4GZUluP7)
+- [Traversal Algorithms (BFS, DFS)](https://colab.research.google.com/drive/16wzhuKChQSex59M8GyG8esxcS2GcIO99#scrollTo=VS6S4GZUluP7)
+- [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](https://colab.research.google.com/drive/16wzhuKChQSex59M8GyG8esxcS2GcIO99#scrollTo=VS6S4GZUluP7)
 </details>
 
 <details>
 <summary>[Matrices](#matrices)</summary>
 
-- [Basic Operations](#basic-operations)
-- [Sparse Matrices](#sparse-matrices)
-- [Applications (e.g., Image Processing)](#applications-eg-image-processing)
+- [Basic Operations](https://colab.research.google.com/drive/1FLVspkhHFax0yhUyAWm8vwNaT40AAkW4#scrollTo=rmmm5trsmP5e)
+- [Sparse Matrices](https://colab.research.google.com/drive/1FLVspkhHFax0yhUyAWm8vwNaT40AAkW4#scrollTo=rmmm5trsmP5e)
+- [Applications (e.g., Image Processing)](https://colab.research.google.com/drive/1FLVspkhHFax0yhUyAWm8vwNaT40AAkW4#scrollTo=rmmm5trsmP5e)
 </details>
 
 </details>
