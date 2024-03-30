@@ -150,8 +150,8 @@ An array is a collection of elements, each identified by an index or key. It is 
    - This can be done using loops such as for loop or while loop.
 
 
-    [Dynamic Arrays]()
-    [Multi-dimensional Arrays]()
+    [Dynamic Arrays](https://)
+    [Multi-dimensional Arrays](https://)
     
 2. Linked Lists
     - Singly Linked Lists
