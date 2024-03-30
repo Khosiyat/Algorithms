@@ -121,6 +121,7 @@ Data structures and algorithms are the building blocks of modern software develo
 - Importance and Applications
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>[Arrays](#arrays)</summary>
 
