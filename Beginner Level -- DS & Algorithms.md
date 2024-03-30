@@ -60,7 +60,6 @@ Data structures and algorithms are the bedrock of computer science and programmi
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
-Clicking on the dropdown arrow will reveal the topics listed under each section. Each topic is hyperlinked to its corresponding implementation section within the document.
 
 # Importance and Applications of Data Structures and Algorithms
 
@@ -116,6 +115,8 @@ Data structures and algorithms are the building blocks of modern software develo
 </details>
 
 ----------------------------------------------------------------------------------------------------------------------------------
+Clicking on the dropdown arrow will reveal the topics listed under each section. Each topic is hyperlinked to its corresponding implementation section within the document.
+
 <details>
 <summary>Overview of Data Structures and Algorithms</summary>
 
