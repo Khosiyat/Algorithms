@@ -237,32 +237,6 @@ An array is a collection of elements, each identified by an index or key. It is 
 
 </details>
 
-## Algorithms
-
-### Sorting Algorithms
-
-- [Bubble Sort](#bubble-sort)
-- [Selection Sort](#selection-sort)
-- [Insertion Sort](#insertion-sort)
-- [Merge Sort](#merge-sort)
-- [Quick Sort](#quick-sort)
-
-### Searching Algorithms
-
-- [Linear Search](#linear-search)
-- [Binary Search](#binary-search)
-
-### Graph Algorithms
-
-- [Depth-First Search (DFS)](#depth-first-search-dfs)
-- [Breadth-First Search (BFS)](#breadth-first-search-bfs)
-- [Shortest Path Algorithms (Dijkstra's, Bellman-Ford)](#shortest-path-algorithms-dijkstras-bellman-ford)
-
-### Dynamic Programming
-
-- [Introduction and Basics](#introduction-and-basics)
-- [Fibonacci Series](#fibonacci-series)
-- [Knapsack Problem](#knapsack-problem)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <details>
