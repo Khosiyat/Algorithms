@@ -157,9 +157,9 @@ An array is a collection of elements, each identified by an index or key. It is 
    - This can be done using loops such as for loop or while loop.
 
 
-- [Definition and Basic Operations](#definition-and-basic-operations)
-- [Dynamic Arrays](#dynamic-arrays)
-- [Multi-dimensional Arrays](#multi-dimensional-arrays)
+- [Definition and Basic Operations](https://colab.research.google.com/drive/1LE4f6r5lLxTUJcg3c22pBSDf_MwDBmQq#scrollTo=uTJ_OYqZnCve&line=1&uniqifier=1)
+- [Dynamic Arrays](https://colab.research.google.com/drive/1LE4f6r5lLxTUJcg3c22pBSDf_MwDBmQq#scrollTo=iF-DIDO9fY0B&line=11&uniqifier=1)
+- [Multi-dimensional Arrays](https://colab.research.google.com/drive/1LE4f6r5lLxTUJcg3c22pBSDf_MwDBmQq#scrollTo=iF-DIDO9fY0B&line=11&uniqifier=1)
 </details>
 
 <details>
