@@ -253,14 +253,59 @@ Implementing Data Structures and Algorithms in a Language of Choice (e.g., Pytho
 <details>
 <summary>Hands-on Coding Exercises for Each Data Structure and Algorithm</summary>
 
-- Additional Topics (Optional)
-    - Hash Tables
-    - Heaps and Priority Queues
-    - Disjoint Set Union (Union Find)
-    - Trie
-    - Red-Black Trees
-    - Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)
+[Hands-on Coding Exercises](#) <!-- Replace # with the hyperlink for the exercises -->
+
 </details>
+
+<details>
+<summary>Additional Topics (Optional)</summary>
+
+[Additional Topics](#) <!-- Replace # with the hyperlink for additional topics -->
+
+</details>
+
+<details>
+<summary>Hash Tables</summary>
+
+[Hash Tables](#) <!-- Replace # with the hyperlink for hash tables -->
+
+</details>
+
+<details>
+<summary>Heaps and Priority Queues</summary>
+
+[Heaps and Priority Queues](#) <!-- Replace # with the hyperlink for heaps and priority queues -->
+
+</details>
+
+<details>
+<summary>Disjoint Set Union (Union Find)</summary>
+
+[Disjoint Set Union (Union Find)](#) <!-- Replace # with the hyperlink for disjoint set union -->
+
+</details>
+
+<details>
+<summary>Trie</summary>
+
+[Trie](#) <!-- Replace # with the hyperlink for trie -->
+
+</details>
+
+<details>
+<summary>Red-Black Trees</summary>
+
+[Red-Black Trees](#) <!-- Replace # with the hyperlink for red-black trees -->
+
+</details>
+
+<details>
+<summary>Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)</summary>
+
+[Advanced Graph Algorithms (Minimum Spanning Trees, Network Flow)](#) <!-- Replace # with the hyperlink for advanced graph algorithms -->
+
+</details>
+
 
 ----------------------------------------------------------------------------------------------------------------------------------
 <details>
