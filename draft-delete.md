@@ -1,7 +1,5 @@
 # Project Architecture Diagram
 
-The architecture diagram for the React TypeScript project is as follows:
-
 ```plaintext
 Root Directory
 ├───api
