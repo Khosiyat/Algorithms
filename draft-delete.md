@@ -215,8 +215,6 @@ The `hooks` folder contains custom hooks and context providers used for managing
 
 ## Files:
 
-### 1. `index.tsx`:
-
 #### Description:
 This file exports a custom hook `useSensorSelection` and a context provider `SensorSelectionProvider` for managing sensor selection.
 
