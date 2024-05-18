@@ -94,11 +94,16 @@ This file provides the core functions for making HTTP requests using Axios:
   <summary><strong>app</strong></summary>
   Contains the main application structure and pages:
 
-  - **about**: Information about the application.
-  - **detail**: Detailed view for specific items, using dynamic `[id]` routing.
-    - `[id]`: Placeholder for dynamic route parameters.
-  - **visualisation**: Visualization components with dynamic `[id]` routing.
-    - `[id]`: Placeholder for dynamic route parameters.
+## About Sub-folder:
+
+- **Description**: Renders information about SBDI Biologging tools and its role in managing data from animal sensor systems.
+- **API Details**: Provides links to the Biologging Open API and its data model.
+- **Contact Information**: Offers contact details for inquiries and contributions.
+
+## Details Sub-folder:
+
+- **Overview**: Displays detailed information about a specific dataset and available dataset versions with download links.
+- 
 </details>
 
 <details>
