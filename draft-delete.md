@@ -115,7 +115,7 @@ This file provides the core functions for making HTTP requests using Axios:
 <details>
   <summary><strong>components</strong></summary>
 
-***The overview of each subfolder's components, their functionalities, props, dependencies, and usage.***
+### ***The overview of each subfolder's components, their functionalities, props, dependencies, and usage.***
 
 ## 1. `actogram` Subfolder
 **Description**: This subfolder contains components dedicated to visualizing actogram data, representing activity patterns over time. 
