@@ -114,7 +114,6 @@ This file provides the core functions for making HTTP requests using Axios:
 
 <details>
   <summary><strong>components</strong></summary>
-  # Component Subfolders Overview
 
 ***The overview of each subfolder's components, their functionalities, props, dependencies, and usage.***
 
