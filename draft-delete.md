@@ -114,13 +114,55 @@ This file provides the core functions for making HTTP requests using Axios:
 
 <details>
   <summary><strong>components</strong></summary>
-  Holds reusable UI components and visual elements:
+  # Component Subfolders Overview
 
-  - **graphs**: Contains different types of graph components.
-    - **actogram**: Actogram graph component.
-    - **line**: Line graph component.
-    - **map**: Map visualization component.
-  - **overview**: Overview components for various summaries.
+***The overview of each subfolder's components, their functionalities, props, dependencies, and usage.***
+
+## 1. `actogram` Subfolder
+**Description**: This subfolder contains components dedicated to visualizing actogram data, representing activity patterns over time. 
+
+### Actogram Component
+- **Description**: Fetches actogram data and renders a graph displaying activity patterns.
+- **Props**: Accepts an array of event objects (`events`).
+- **Dependencies**: Utilizes React, date-fns for date manipulation, and custom API modules for data fetching.
+- **Usage**: `<Actogram events={events} />`
+
+### ActogramGraph Component
+- **Description**: Renders the actogram graph based on provided data.
+- **Props**: Receives data arrays (`data`), a map of month counts (`mCounts`), and the total number of days (`days`).
+- **Dependencies**: Utilizes React and react-chartjs-2 for graph rendering.
+- **Usage**: `<ActogramGraph data={data} mCounts={mCounts} days={days} />`
+
+## 2. `line` Subfolder
+**Description**: Contains components for displaying line graphs.
+
+### LineGraph Component
+- **Description**: Fetches data and renders a line graph displaying sensor data over time.
+- **Props**: Accepts an array of event objects (`events`) and the name of the sensor (`sensor`).
+- **Dependencies**: Requires React, react-chartjs-2, and custom API modules.
+- **Usage**: `<LineGraph events={events} sensor={sensor} />`
+
+## 3. `map` Subfolder
+**Description**: Houses components for displaying geographical data on maps, facilitating the visualization of spatial information.
+
+### MapGraph Component
+- **Description**: Fetches geographical data and renders a map with markers and polylines.
+- **Props**: Receives an array of event objects (`events`).
+- **Dependencies**: Depends on React, react-leaflet, and custom API modules for data retrieval.
+- **Usage**: `<MapGraph events={events} />`
+
+### MapComponent Component
+- **Description**: Renders the Leaflet map and coordinates the rendering of markers and polylines.
+- **Props**: Accepts an array of coordinate arrays (`data`).
+- **Dependencies**: Utilizes React, react-leaflet, and leaflet library.
+- **Usage**: `<MapComponent data={data} />`
+
+### Polylines Component
+- **Description**: Renders polylines on the map based on provided coordinate data.
+- **Props**: Receives an array of coordinate arrays (`coords`).
+- **Dependencies**: Requires React, react-leaflet, and leaflet library.
+- **Usage**: `<Polylines coords={coords} />`
+
 </details>
 
 <details>
