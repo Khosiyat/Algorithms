@@ -235,7 +235,7 @@ This file exports a custom hook `useSensorSelection` and a context provider `Sen
 # Tech Stack and Libraries Used in this project
 
 <details>
-  <summary><strong>Tech Stack:</strong></summary>
+  <summary><strong>Tech Stack</strong></summary>
 
 - **Frontend Framework:** React.js with TypeScript
 - **Styling:** CSS (potentially with CSS-in-JS libraries like styled-components or Emotion)
@@ -248,7 +248,7 @@ This file exports a custom hook `useSensorSelection` and a context provider `Sen
 </details>
 
 <details>
-  <summary><strong>Libraries and Dependencies:</strong></summary>
+  <summary><strong>Libraries and Dependencies</strong></summary>
 
 - **React:** Chosen for its component-based architecture, reusability, and performance optimizations.
 - **TypeScript:** Added type safety and enhanced development experience by catching errors during compile time.
@@ -262,7 +262,7 @@ This file exports a custom hook `useSensorSelection` and a context provider `Sen
 </details>
 
 <details>
-  <summary><strong>Reasons for Usage:</strong></summary>
+  <summary><strong>Reasons for Usage</strong></summary>
 
 - **React.js with TypeScript:** Chosen for its popularity, strong community support, and the ability to build complex UIs with ease while ensuring type safety.
 - **react-chartjs-2:** Provided a React-friendly wrapper for Chart.js, enabling the creation of interactive and visually appealing charts/graphs.
