@@ -37,12 +37,38 @@ Root Directory
   <summary><strong>api</strong></summary>
   Contains various subdirectories that handle different types of data and interactions:
 
-  - **dataset**: Handles dataset-related API interactions.
-  - **event**: Manages event-related API calls.
-  - **instrument**: Responsible for instrument data API interactions.
-  - **organism**: Deals with organism-related API calls.
-  - **project**: Manages project-specific API interactions.
-  - **record**: Handles record-related API data.
+# Summary of API Directory
+
+## General Structure
+### `api.ts`
+This file defines the API functions for interacting with the specific type of data-related endpoints:
+
+- **getItems**: Fetches all items (datasets, events, instruments, organisms, projects, or records).
+- **getItem**: Fetches a specific item by ID.
+- **filterItems**: Filters items based on provided criteria.
+
+### `interface.ts`
+This file contains TypeScript interfaces that define the structure of the specific type of data:
+
+- **Item**: Represents the main item structure with relevant fields.
+- **Contact**: Represents contact information with fields for `firstName`, `lastName`, `email`, `userid`, and `webpage`.
+- **Taxon**: Represents taxonomic coverage including fields for `taxonScientificName`, `taxonCommonName`, and `dyntaxaId`.
+- **GeographicWENS**: Represents geographical coverage with coordinates and a description.
+- **RangeDateTime**: Represents temporal coverage with `startDatetime` and `endDateTime`.
+- **Reference**: Represents bibliographic citation with `DOI` and `title`.
+
+## Specific Subdirectories
+Each subdirectory under `api` handles interactions for different types of data and includes the following two key files:
+- **dataset**: Handles dataset-related API interactions.
+- **event**: Manages event-related API calls.
+- **instrument**: Responsible for instrument data API interactions.
+- **organism**: Deals with organism-related API calls.
+- **project**: Manages project-specific API interactions.
+- **record**: Handles record-related API data.
+
+Each subdirectory follows the same structure but is tailored to handle its specific type of data interactions and definitions.
+
+
 </details>
 
 <details>
