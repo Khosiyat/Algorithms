@@ -162,6 +162,48 @@ This file provides the core functions for making HTTP requests using Axios:
 - **Dependencies**: Requires React, react-leaflet, and leaflet library.
 - **Usage**: `<Polylines coords={coords} />`
 
+
+# Overview
+
+## 1. `table.tsx` file:
+
+### Description:
+This file contains the implementation of a table component (`OverviewTable`) for displaying dataset information. It utilizes the AG Grid component for efficient rendering and management of large datasets.
+
+### Dependencies:
+- React: For building the user interface.
+- ag-Grid: A feature-rich datagrid library for displaying large datasets in tabular format.
+- axios: A promise-based HTTP client for making API requests.
+- date-fns: A library for manipulating dates in JavaScript.
+
+### Components:
+- `OverviewTable`: Renders a table displaying dataset information with features like sorting, filtering, and row selection.
+
+### Features:
+- Error handling: Detects and displays error messages if data loading fails.
+- Row selection: Allows users to select a row and trigger a callback function (`onSelect`) with the selected dataset item.
+- Cell rendering: Custom rendering of certain cells, such as temporal coverage, for improved readability.
+- Grid configuration: Configures default grid options and column definitions for consistent behavior and appearance.
+
+## 2. `Snippet.tsx` file:
+
+### Description:
+This file contains the implementation of a snippet component (`OverviewSnippet`) for displaying summarized dataset information. It provides links for accessing detailed information, visualization, and dataset download.
+
+### Dependencies:
+- React: For building the user interface.
+- Font Awesome: For adding icons to enhance visual representation.
+
+### Components:
+- `OverviewSnippet`: Renders a summarized view of dataset information with links for detailed information, visualization, and download.
+
+### Features:
+- Dataset overview: Displays basic information about the dataset such as title, description, instruments, and sensors.
+- Links: Provides links for accessing more detailed information, visualization, and dataset download.
+- Download functionality: Allows users to download the dataset in JSON format.
+- Error handling: Handles cases where dataset information is unavailable or incomplete.
+
+
 </details>
 
 <details>
