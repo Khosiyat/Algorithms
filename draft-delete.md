@@ -208,7 +208,29 @@ This file contains the implementation of a snippet component (`OverviewSnippet`)
 
 <details>
   <summary><strong>hooks</strong></summary>
-  Contains custom React hooks for shared logic:
+  
 
-  - **sensorSelectContext**: Context and hooks related to sensor selection functionality.
+## Description:
+The `hooks` folder contains custom hooks and context providers used for managing sensor selection in visualizations.
+
+## Files:
+
+### 1. `index.tsx`:
+
+#### Description:
+This file exports a custom hook `useSensorSelection` and a context provider `SensorSelectionProvider` for managing sensor selection.
+
+#### Dependencies:
+- React: For building the user interface.
+
+#### Components/Interfaces:
+- `SensorSelectionContext`: Context for managing sensor selection state.
+- `useSensorSelection`: Custom hook for accessing sensor selection context.
+- `SensorSelectionProvider`: Context provider component for managing sensor selection state.
+
+#### Features:
+- Context management: Provides a context and custom hook for managing sensor selection state across components.
+- Sensor selection update: Allows components to update the selected sensors and trigger re-renders when sensor selection changes.
+
+
 </details>
