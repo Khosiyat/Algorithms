@@ -232,3 +232,41 @@ This file exports a custom hook `useSensorSelection` and a context provider `Sen
 
 
 </details>
+
+
+<details>
+  <summary><strong>Summary of Tech Stack and Libraries Used</strong></summary>
+
+## Tech Stack:
+
+- **Frontend Framework:** React.js with TypeScript
+- **Styling:** CSS (potentially with CSS-in-JS libraries like styled-components or Emotion)
+- **Data Visualization:** react-chartjs-2 for rendering charts/graphs, react-leaflet for mapping, potentially supplemented by Leaflet library
+- **State Management:** React Context API (for managing sensor selection)
+- **HTTP Requests:** Axios for making API requests
+- **Date Manipulation:** date-fns for handling dates
+- **Grid Component:** ag-Grid for displaying large datasets efficiently in tabular format
+
+## Libraries and Dependencies:
+
+- **React:** Chosen for its component-based architecture, reusability, and performance optimizations.
+- **TypeScript:** Added type safety and enhanced development experience by catching errors during compile time.
+- **react-chartjs-2:** Provided a simple and customizable way to render charts/graphs in React applications.
+- **react-leaflet and Leaflet:** Utilized for displaying geographical data on interactive maps, offering flexibility and customization options.
+- **Axios:** Used for making HTTP requests to fetch data from APIs, offering a promise-based interface and robust error handling.
+- **ag-Grid:** Employed for displaying large datasets efficiently in tabular format, providing features like sorting, filtering, and row selection.
+- **date-fns:** Facilitated date manipulation tasks, ensuring consistent handling of temporal data across the application.
+- **CSS-in-JS Libraries (potentially):** Styled-components or Emotion could be used for styling components, providing scoped styles and enhancing maintainability.
+
+## Reasons for Usage:
+
+- **React.js with TypeScript:** Chosen for its popularity, strong community support, and the ability to build complex UIs with ease while ensuring type safety.
+- **react-chartjs-2:** Provided a React-friendly wrapper for Chart.js, enabling the creation of interactive and visually appealing charts/graphs.
+- **react-leaflet and Leaflet:** Offered powerful mapping capabilities with extensive customization options, ideal for visualizing geographical data.
+- **Axios:** Preferred for its simplicity, flexibility, and built-in support for interceptors, allowing for centralized request and response handling.
+- **ag-Grid:** Selected for its performance optimizations, extensive feature set, and compatibility with React, making it suitable for handling large datasets efficiently.
+- **date-fns:** Chosen for its lightweight nature, comprehensive date manipulation utilities, and TypeScript support, ensuring reliable handling of temporal data.
+- **CSS-in-JS Libraries (potentially):** Offered a convenient way to style components with scoped styles, enhancing encapsulation and reusability.
+
+
+</details>
