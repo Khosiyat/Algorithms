@@ -133,7 +133,7 @@ This file provides the core functions for making HTTP requests using Axios:
 - **Usage**: `<ActogramGraph data={data} mCounts={mCounts} days={days} />`
 
 ## 2. `line` Subfolder
-**Description**: Contains components for displaying line graphs.
+### **Description**: Contains components for displaying line graphs.
 
 ### LineGraph Component
 - **Description**: Fetches data and renders a line graph displaying sensor data over time.
