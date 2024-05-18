@@ -94,13 +94,13 @@ This file provides the core functions for making HTTP requests using Axios:
   <summary><strong>app</strong></summary>
   Contains the main application structure and pages:
 
-## About Sub-folder:
+***About*** Sub-folder of app:
 
 - **Description**: Renders information about SBDI Biologging tools and its role in managing data from animal sensor systems.
 - **API Details**: Provides links to the Biologging Open API and its data model.
 - **Contact Information**: Offers contact details for inquiries and contributions.
 
-## Details Sub-folder:
+***Details*** Sub-folder of app:
 
 - **Overview**: Displays detailed information about a specific dataset and available dataset versions with download links.
 - 
