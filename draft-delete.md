@@ -2,7 +2,7 @@
 
 ```plaintext
 Root Directory
-├───api
+├─── - api
 │   ├───dataset
 │   ├───event
 │   ├───instrument
@@ -26,30 +26,9 @@ Root Directory
 └───hooks
     └───sensorSelectContext
 ```
-- ![#1589F0](Root Directory)
-  - ![#1589F0](api)
-    - ![#1589F0](dataset)
-    - ![#1589F0](event)
-    - ![#1589F0](instrument)
-    - ![#1589F0](organism)
-    - ![#1589F0](project)
-    - ![#1589F0](record)
-  - ![#17A589](app)
-    - ![#17A589](about)
-    - ![#17A589](detail)
-      - ![#17A589]([id])
-    - ![#17A589](visualisation)
-      - ![#17A589]([id])
-  - ![#FF5733](assets)
-    - ![#FF5733](images)
-  - ![#9B59B6](components)
-    - ![#9B59B6](graphs)
-      - ![#9B59B6](actogram)
-      - ![#9B59B6](line)
-      - ![#9B59B6](map)
-    - ![#9B59B6](overview)
-  - ![#F4D03F](hooks)
-    - ![#F4D03F](sensorSelectContext)
+
+
+
 
 
 
