@@ -2,32 +2,6 @@
 
 ```mermaid
 graph TD
-    Root_Directory --> api
-    Root_Directory --> app
-    Root_Directory --> assets
-    Root_Directory --> components
-    Root_Directory --> hooks
-    api --> dataset
-    api --> event
-    api --> instrument
-    api --> organism
-    api --> project
-    api --> record
-    app --> about
-    app --> detail
-    app --> visualisation
-    detail --> id
-    visualisation --> id
-    assets --> images
-    components --> graphs
-    components --> overview
-    graphs --> actogram
-    graphs --> line
-    graphs --> map
-```
-
-```mermaid
-graph TD
     Root_Directory{Root Directory} --> api{api}
     Root_Directory --> app{app}
     Root_Directory --> assets{assets}
