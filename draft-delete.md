@@ -1,32 +1,5 @@
 # Project Architecture Diagram
 
-```plaintext
-Root Directory
-├───api
-│   ├───dataset
-│   ├───event
-│   ├───instrument
-│   ├───organism
-│   ├───project
-│   └───record
-├───app
-│   ├───about
-│   ├───detail
-│   │   └───[id]
-│   └───visualisation
-│       └───[id]
-├───assets
-│   └───images
-├───components
-│   ├───graphs
-│   │   ├───actogram
-│   │   ├───line
-│   │   └───map
-│   └───overview
-└───hooks
-    └───sensorSelectContext
-```
-
 ```mermaid
 graph TD
     Root_Directory --> api
@@ -310,3 +283,33 @@ The project architecture consists of a well-organized directory structure featur
 The components directory includes subfolders for graphs (`actogram`, `line`, and `map`) and overview components, each designed for specific data visualization and table representation purposes. Custom hooks for managing sensor selections are housed in the hooks directory.
 
 The tech stack leverages **React.js** with **TypeScript** for the frontend, supported by libraries like **react-chartjs-2** for **charts**__, **react-leaflet** for **maps**__, **Axios** for **HTTP requests**__, **date-fns** for **date handling**__, and **ag-Grid** for efficient **data tables**__. The chosen libraries ensure robust, type-safe, and efficient handling of complex data visualization and interactions.
+
+<details>
+    <summary><strong>Architecture Diagram</strong></summary>
+```plaintext
+Root Directory
+├───api
+│   ├───dataset
+│   ├───event
+│   ├───instrument
+│   ├───organism
+│   ├───project
+│   └───record
+├───app
+│   ├───about
+│   ├───detail
+│   │   └───[id]
+│   └───visualisation
+│       └───[id]
+├───assets
+│   └───images
+├───components
+│   ├───graphs
+│   │   ├───actogram
+│   │   ├───line
+│   │   └───map
+│   └───overview
+└───hooks
+    └───sensorSelectContext
+```
+</details>
