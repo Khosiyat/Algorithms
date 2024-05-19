@@ -285,7 +285,7 @@ The components directory includes subfolders for graphs (`actogram`, `line`, and
 The tech stack leverages **React.js** with **TypeScript** for the frontend, supported by libraries like **react-chartjs-2** for **charts**__, **react-leaflet** for **maps**__, **Axios** for **HTTP requests**__, **date-fns** for **date handling**__, and **ag-Grid** for efficient **data tables**__. The chosen libraries ensure robust, type-safe, and efficient handling of complex data visualization and interactions.
 
 <details>
-    <summary><strong>Architecture Diagram</strong></summary>
+    <summary><strong>Architecture Diagram | Tree </strong></summary>
     
 ```plaintext
 Root Directory
