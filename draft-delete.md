@@ -238,7 +238,7 @@ This file exports a custom hook `useSensorSelection` and a context provider `Sen
   <summary><strong>Tech Stack</strong></summary>
 
 - **Frontend Framework:** React.js with TypeScript
-- **Styling:** CSS (potentially with CSS-in-JS libraries like styled-components or Emotion)
+- **Styling:** CSS (potentially with CSS-in-JS libraries)
 - **Data Visualization:** react-chartjs-2 for rendering charts/graphs, react-leaflet for mapping, potentially supplemented by Leaflet library
 - **State Management:** React Context API (for managing sensor selection)
 - **HTTP Requests:** Axios for making API requests
@@ -257,19 +257,19 @@ This file exports a custom hook `useSensorSelection` and a context provider `Sen
 - **Axios:** Used for making HTTP requests to fetch data from APIs, offering a promise-based interface and robust error handling.
 - **ag-Grid:** Employed for displaying large datasets efficiently in tabular format, providing features like sorting, filtering, and row selection.
 - **date-fns:** Facilitated date manipulation tasks, ensuring consistent handling of temporal data across the application.
-- **CSS-in-JS Libraries (potentially):** Styled-components or Emotion could be used for styling components, providing scoped styles and enhancing maintainability.
+- **CSS-in-JS Libraries (potentially):** Styled components are used for styling components, providing scoped styles and enhancing maintainability.
 
 </details>
 
 <details>
   <summary><strong>Reasons for Usage</strong></summary>
 
-- **React.js with TypeScript:** Chosen for its popularity, strong community support, and the ability to build complex UIs with ease while ensuring type safety.
-- **react-chartjs-2:** The reason for choosing this library is: 1) Integration with React. 2) Active Development and Community Support 3) Easy 4) MIT License.
+- **React.js with TypeScript:** The tech team (Khosiyat, Yuliia, Zuzanna) chose it because of the strong community support, and the ability to build complex UIs with ease while ensuring type safety.
+- **react-chartjs-2:** The reasons for choosing this library are: 1) Integration with React. 2) Active Development and Community Support 3) Easy 4) MIT License.
 [see the Decision-making process to select alternative visualization libraries](https://github.com/biodiversitydata-se/biologging-sensor-client/blob/develop/design-docs/Decision-Making-Process-Visualization-Librarires-Document.md)
-- **react-leaflet and Leaflet:** Offered powerful mapping capabilities with extensive customization options, ideal for visualizing geographical data.
-- **Axios:** Preferred for its simplicity, flexibility, and built-in support for interceptors, allowing for centralized request and response handling.
-- **ag-Grid:** Selected for its performance optimizations, extensive feature set, and compatibility with React, making it suitable for handling large datasets efficiently.
+- **react-leaflet and Leaflet:** Suggested by the tech team of Lund University. During the product development process, we, the tech team, saw this library offer powerful mapping capabilities with extensive customization options, ideal for visualizing geographical data.
+- **Axios:** Preferred (by Khosiyat, Yuliia, Zuzanna) for its simplicity, flexibility, and built-in support for interceptors, allowing for centralized request and response handling.
+- **ag-Grid:** Suggested by Yuliia, Zuzanna for its performance optimizations, extensive feature set, and compatibility with React, making it suitable for handling large datasets efficiently.
 - **date-fns:** Chosen for its lightweight nature, comprehensive date manipulation utilities, and TypeScript support, ensuring reliable handling of temporal data.
 - **CSS-in-JS Libraries (potentially):** Offered a convenient way to style components with scoped styles, enhancing encapsulation and reusability.
 
