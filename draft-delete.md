@@ -286,6 +286,7 @@ The tech stack leverages **React.js** with **TypeScript** for the frontend, supp
 
 <details>
     <summary><strong>Architecture Diagram</strong></summary>
+    
 ```plaintext
 Root Directory
 ├───api
