@@ -26,34 +26,31 @@ Root Directory
 └───hooks
     └───sensorSelectContext
 ```
-xyz
-```plaintext
-Root Directory
-├───\033[1;34mapi\033[0m
-│   ├───\033[1;36mdataset\033[0m
-│   ├───\033[1;36mevent\033[0m
-│   ├───\033[1;36minstrument\033[0m
-│   ├───\033[1;36morganism\033[0m
-│   ├───\033[1;36mproject\033[0m
-│   └───\033[1;36mrecord\033[0m
-├───\033[1;34mapp\033[0m
-│   ├───\033[1;36mabout\033[0m
-│   ├───\033[1;36mdetail\033[0m
-│   │   └───\033[1;35m[id]\033[0m
-│   └───\033[1;36mvisualisation\033[0m
-│       └───\033[1;35m[id]\033[0m
-├───\033[1;34massets\033[0m
-│   └───\033[1;34mimages\033[0m
-├───\033[1;34mcomponents\033[0m
-│   ├───\033[1;34mgraphs\033[0m
-│   │   ├───\033[1;36mactogram\033[0m
-│   │   ├───\033[1;36mline\033[0m
-│   │   └───\033[1;36mmap\033[0m
-│   └───\033[1;34moverview\033[0m
-└───\033[1;34mhooks\033[0m
-    └───\033[1;36msensorSelectContext\033[0m
+- ![#1589F0](Root Directory)
+  - ![#1589F0](api)
+    - ![#1589F0](dataset)
+    - ![#1589F0](event)
+    - ![#1589F0](instrument)
+    - ![#1589F0](organism)
+    - ![#1589F0](project)
+    - ![#1589F0](record)
+  - ![#17A589](app)
+    - ![#17A589](about)
+    - ![#17A589](detail)
+      - ![#17A589]([id])
+    - ![#17A589](visualisation)
+      - ![#17A589]([id])
+  - ![#FF5733](assets)
+    - ![#FF5733](images)
+  - ![#9B59B6](components)
+    - ![#9B59B6](graphs)
+      - ![#9B59B6](actogram)
+      - ![#9B59B6](line)
+      - ![#9B59B6](map)
+    - ![#9B59B6](overview)
+  - ![#F4D03F](hooks)
+    - ![#F4D03F](sensorSelectContext)
 
-```
 
 
 # Directory Breakdown
