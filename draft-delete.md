@@ -2,7 +2,7 @@
 
 ```plaintext
 Root Directory
-├─── - api
+├───api
 │   ├───dataset
 │   ├───event
 │   ├───instrument
