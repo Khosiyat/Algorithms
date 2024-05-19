@@ -27,7 +27,7 @@ Root Directory
     └───sensorSelectContext
 ```
 
-
+```mermaid
 graph TD
     Root_Directory --> api
     Root_Directory --> app
@@ -51,7 +51,7 @@ graph TD
     graphs --> actogram
     graphs --> line
     graphs --> map
-
+```
 
 
 
