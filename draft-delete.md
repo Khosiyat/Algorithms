@@ -27,6 +27,31 @@ Root Directory
     └───sensorSelectContext
 ```
 
+Root Directory
+├───\033[1;34mapi\033[0m
+│   ├───\033[1;36mdataset\033[0m
+│   ├───\033[1;36mevent\033[0m
+│   ├───\033[1;36minstrument\033[0m
+│   ├───\033[1;36morganism\033[0m
+│   ├───\033[1;36mproject\033[0m
+│   └───\033[1;36mrecord\033[0m
+├───\033[1;34mapp\033[0m
+│   ├───\033[1;36mabout\033[0m
+│   ├───\033[1;36mdetail\033[0m
+│   │   └───\033[1;35m[id]\033[0m
+│   └───\033[1;36mvisualisation\033[0m
+│       └───\033[1;35m[id]\033[0m
+├───\033[1;34massets\033[0m
+│   └───\033[1;34mimages\033[0m
+├───\033[1;34mcomponents\033[0m
+│   ├───\033[1;34mgraphs\033[0m
+│   │   ├───\033[1;36mactogram\033[0m
+│   │   ├───\033[1;36mline\033[0m
+│   │   └───\033[1;36mmap\033[0m
+│   └───\033[1;34moverview\033[0m
+└───\033[1;34mhooks\033[0m
+    └───\033[1;36msensorSelectContext\033[0m
+
 
 
 # Directory Breakdown
