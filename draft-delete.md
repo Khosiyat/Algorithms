@@ -275,3 +275,11 @@ This file exports a custom hook `useSensorSelection` and a context provider `Sen
 
 </details>
 
+
+# Summery | Technical Walkthrough
+
+The project architecture consists of a well-organized directory structure featuring distinct folders for API interactions, **application components**, **assets**, and **custom hooks**. The `api` directory manages data-related operations with subdirectories for `datasets`, `events`, `instruments`, `organisms`, `projects`, and `records`, each with specific **API** functions and **TypeScript interfaces**. The app directory contains the main application pages, including sections for **detailed dataset information** and **visualizations**. Static assets, primarily images, are stored in the assets directory.
+
+The components directory includes subfolders for graphs (`actogram`, `line`, and `map`) and overview components, each designed for specific data visualization and table representation purposes. Custom hooks for managing sensor selections are housed in the hooks directory.
+
+The tech stack leverages **React.js** with **TypeScript** for the frontend, supported by libraries like **react-chartjs-2** for **charts**__, **react-leaflet** for **maps**__, **Axios** for **HTTP requests**__, **date-fns** for **date handling**__, and **ag-Grid** for efficient **data tables**__. The chosen libraries ensure robust, type-safe, and efficient handling of complex data visualization and interactions.
