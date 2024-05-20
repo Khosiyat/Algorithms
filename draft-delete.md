@@ -5,13 +5,13 @@ graph TD
     Client[Client (Browser)] -->|HTTP Requests| Backend[Backend Server]
     Backend -->|Fetches Data| Database[Database]
     Backend -->|API Endpoints| API[API Server]
-    
-    API --> Dataset[Dataset API]
-    API --> Event[Event API]
-    API --> Instrument[Instrument API]
-    API --> Organism[Organism API]
-    API --> Project[Project API]
-    API --> Record[Record API]
+
+    API --> DatasetAPI[Dataset API]
+    API --> EventAPI[Event API]
+    API --> InstrumentAPI[Instrument API]
+    API --> OrganismAPI[Organism API]
+    API --> ProjectAPI[Project API]
+    API --> RecordAPI[Record API]
 
     Client -->|User Interactions| App[Web Application]
     App --> AboutPage[About Page]
@@ -22,17 +22,17 @@ graph TD
     VisualizationPage --> ActogramView[Actogram View]
     VisualizationPage --> LineGraphView[Line Graph View]
     VisualizationPage --> MapView[Map View]
-    
+
     Client -->|Loads| Assets[Static Assets]
     Assets --> Images[Images]
-    
+
     Client -->|Uses| Components[UI Components]
     Components --> Graphs[Graphs Component]
     Components --> Overview[Overview Component]
     Graphs --> ActogramComponent[Actogram]
     Graphs --> LineGraphComponent[Line Graph]
     Graphs --> MapComponent[Map]
-    
+
     Client -->|Utilizes| Hooks[React Hooks]
     Hooks --> SensorSelectContext[Sensor Select Context]
 
@@ -45,12 +45,12 @@ graph TD
     style Components fill:#6FB1FC,stroke:#333,stroke-width:2px
     style Hooks fill:#6FB1FC,stroke:#333,stroke-width:2px
 
-    style Dataset fill:#65E6A5,stroke:#333,stroke-width:2px
-    style Event fill:#65E6A5,stroke:#333,stroke-width:2px
-    style Instrument fill:#65E6A5,stroke:#333,stroke-width:2px
-    style Organism fill:#65E6A5,stroke:#333,stroke-width:2px
-    style Project fill:#65E6A5,stroke:#333,stroke-width:2px
-    style Record fill:#65E6A5,stroke:#333,stroke-width:2px
+    style DatasetAPI fill:#65E6A5,stroke:#333,stroke-width:2px
+    style EventAPI fill:#65E6A5,stroke:#333,stroke-width:2px
+    style InstrumentAPI fill:#65E6A5,stroke:#333,stroke-width:2px
+    style OrganismAPI fill:#65E6A5,stroke:#333,stroke-width:2px
+    style ProjectAPI fill:#65E6A5,stroke:#333,stroke-width:2px
+    style RecordAPI fill:#65E6A5,stroke:#333,stroke-width:2px
 
     style AboutPage fill:#65E6A5,stroke:#333,stroke-width:2px
     style DetailPage fill:#65E6A5,stroke:#333,stroke-width:2px
