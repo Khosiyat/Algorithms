@@ -2,6 +2,79 @@
 
 ```mermaid
 graph TD
+    Client[Client (Browser)] -->|HTTP Requests| Backend[Backend Server]
+    Backend -->|Fetches Data| Database[Database]
+    Backend -->|API Endpoints| API[API]
+    
+    API --> dataset[Dataset]
+    API --> event[Event]
+    API --> instrument[Instrument]
+    API --> organism[Organism]
+    API --> project[Project]
+    API --> record[Record]
+
+    Client -->|User Interactions| App[App]
+    App --> About[About Page]
+    App --> Detail[Detail Page]
+    App --> Visualisation[Visualisation Page]
+
+    Detail --> DetailView[Detail View]
+    Visualisation --> ActogramView[Actogram View]
+    Visualisation --> LineGraphView[Line Graph View]
+    Visualisation --> MapView[Map View]
+    
+    Client -->|Loads| Assets[Assets]
+    Assets --> Images[Images]
+    
+    Client -->|Uses| Components[Components]
+    Components --> Graphs[Graphs]
+    Components --> Overview[Overview]
+    Graphs --> Actogram[Actogram Component]
+    Graphs --> LineGraph[Line Graph Component]
+    Graphs --> Map[Map Component]
+    
+    Client -->|Utilizes| Hooks[Hooks]
+    Hooks --> SensorSelectContext[Sensor Select Context]
+
+    style Client fill:#6FB1FC,stroke:#333,stroke-width:2px
+    style Backend fill:#6FB1FC,stroke:#333,stroke-width:2px
+    style Database fill:#6FB1FC,stroke:#333,stroke-width:2px
+    style API fill:#6FB1FC,stroke:#333,stroke-width:2px
+    style App fill:#6FB1FC,stroke:#333,stroke-width:2px
+    style Assets fill:#6FB1FC,stroke:#333,stroke-width:2px
+    style Components fill:#6FB1FC,stroke:#333,stroke-width:2px
+    style Hooks fill:#6FB1FC,stroke:#333,stroke-width:2px
+
+    style dataset fill:#65E6A5,stroke:#333,stroke-width:2px
+    style event fill:#65E6A5,stroke:#333,stroke-width:2px
+    style instrument fill:#65E6A5,stroke:#333,stroke-width:2px
+    style organism fill:#65E6A5,stroke:#333,stroke-width:2px
+    style project fill:#65E6A5,stroke:#333,stroke-width:2px
+    style record fill:#65E6A5,stroke:#333,stroke-width:2px
+
+    style About fill:#65E6A5,stroke:#333,stroke-width:2px
+    style Detail fill:#65E6A5,stroke:#333,stroke-width:2px
+    style Visualisation fill:#65E6A5,stroke:#333,stroke-width:2px
+
+    style DetailView fill:#65E6A5,stroke:#333,stroke-width:2px
+    style ActogramView fill:#65E6A5,stroke:#333,stroke-width:2px
+    style LineGraphView fill:#65E6A5,stroke:#333,stroke-width:2px
+    style MapView fill:#65E6A5,stroke:#333,stroke-width:2px
+
+    style Images fill:#65E6A5,stroke:#333,stroke-width:2px
+    style Graphs fill:#65E6A5,stroke:#333,stroke-width:2px
+    style Overview fill:#65E6A5,stroke:#333,stroke-width:2px
+
+    style Actogram fill:#65E6A5,stroke:#333,stroke-width:2px
+    style LineGraph fill:#65E6A5,stroke:#333,stroke-width:2px
+    style Map fill:#65E6A5,stroke:#333,stroke-width:2px
+
+    style SensorSelectContext fill:#65E6A5,stroke:#333,stroke-width:2px
+
+```
+
+```mermaid
+graph TD
     Client[Client] -->|HTTP Requests| Backend[Backend Server]
     Backend -->|Fetches Data| Database[Database]
     Backend -->|API Endpoints| api{api}
