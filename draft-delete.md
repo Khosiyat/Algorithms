@@ -1,4 +1,4 @@
-# System | Project Architecture Diagram
+# Project Architecture Diagram
 
 ```mermaid
 graph TD
@@ -64,9 +64,9 @@ graph TD
 
 ```
 
-
+# The System Architecture
 <details>
-  <summary><strong>The System Architecture</strong></summary>
+  <summary><strong>The System Architecture Diagram </strong></summary>
 
 ```mermaid
 flowchart LR
