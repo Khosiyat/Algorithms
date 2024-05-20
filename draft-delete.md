@@ -1,5 +1,5 @@
 # Project Architecture Diagram
-
+```mermaid
 graph TD
     Root_Directory{Root Directory} --> api{api}
     Root_Directory --> app{app}
@@ -47,7 +47,7 @@ graph TD
     style line fill:#65E6A5,stroke:#333,stroke-width:2px;
     style map fill:#65E6A5,stroke:#333,stroke-width:2px;
     style sensorSelectContext fill:#65E6A5,stroke:#333,stroke-width:2px;
-
+```
 
 
 ```mermaid
