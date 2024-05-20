@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-    Client[Client (Browser)] -->|HTTP Requests| Backend[Backend Server]
+    Client[Client] -->|HTTP Requests| Backend[Backend Server]
     Backend -->|Fetches Data| Database[Database]
     Backend -->|API Endpoints| API[API]
     
