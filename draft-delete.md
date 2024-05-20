@@ -1,76 +1,67 @@
 # Project Architecture Diagram
 
 ```mermaid
-graph TD
-    Client[Client (Browser)] -->|HTTP Requests| Backend[Backend Server]
-    Backend -->|Fetches Data| Database[Database]
-    Backend -->|API Endpoints| API[API Server]
+flowchart LR
+    subgraph "Client-Side (Frontend)"
+        Client(Browser) --> App
+        App -->|Routing| About
+        App -->|Routing| Detail
+        App -->|Routing| Visualisation
+        Visualisation -->|Actogram| Actogram
+        Visualisation -->|Line Graph| LineGraph
+        Visualisation -->|Map| Map
+        App -->|Assets| Assets
+        App -->|Components| Components
+        Components -->|Graphs| Graphs
+        Components -->|Overview| Overview
+        Components -->|Hooks| Hooks
+    end
 
-    API --> DatasetAPI[Dataset API]
-    API --> EventAPI[Event API]
-    API --> InstrumentAPI[Instrument API]
-    API --> OrganismAPI[Organism API]
-    API --> ProjectAPI[Project API]
-    API --> RecordAPI[Record API]
+    subgraph "Backend-Side (Server)"
+        BackendServer -->|HTTP Requests| Client
+        BackendServer -->|API Endpoints| APIEndpoints
+        APIEndpoints -->|Fetch Data| Database
+        subgraph "Sub-APIs"
+            Dataset
+            Event
+            Instrument
+            Organism
+            Project
+            Record
+        end
+    end
 
-    Client -->|User Interactions| App[Web Application]
-    App --> AboutPage[About Page]
-    App --> DetailPage[Detail Page]
-    App --> VisualizationPage[Visualization Page]
+    subgraph "Data Flow and Interactions"
+        Client -->|HTTP Requests| BackendServer
+        BackendServer -->|Processing| Database
+        Database -->|Data| BackendServer
+        BackendServer -->|Data| Client
+    end
 
-    DetailPage --> DetailView[Detail View]
-    VisualizationPage --> ActogramView[Actogram View]
-    VisualizationPage --> LineGraphView[Line Graph View]
-    VisualizationPage --> MapView[Map View]
+    subgraph "Directory Structure"
+        subgraph "api"
+            api.ts
+            interface.ts
+            apiService.ts
+        end
+        subgraph "app"
+            about
+            detail
+            visualisation
+        end
+        assets
+        subgraph "components"
+            graphs
+            overview
+            hooks
+        end
+    end
 
-    Client -->|Loads| Assets[Static Assets]
-    Assets --> Images[Images]
-
-    Client -->|Uses| Components[UI Components]
-    Components --> Graphs[Graphs Component]
-    Components --> Overview[Overview Component]
-    Graphs --> ActogramComponent[Actogram]
-    Graphs --> LineGraphComponent[Line Graph]
-    Graphs --> MapComponent[Map]
-
-    Client -->|Utilizes| Hooks[React Hooks]
-    Hooks --> SensorSelectContext[Sensor Select Context]
-
-    style Client fill:#6FB1FC,stroke:#333,stroke-width:2px
-    style Backend fill:#6FB1FC,stroke:#333,stroke-width:2px
-    style Database fill:#6FB1FC,stroke:#333,stroke-width:2px
-    style API fill:#6FB1FC,stroke:#333,stroke-width:2px
-    style App fill:#6FB1FC,stroke:#333,stroke-width:2px
-    style Assets fill:#6FB1FC,stroke:#333,stroke-width:2px
-    style Components fill:#6FB1FC,stroke:#333,stroke-width:2px
-    style Hooks fill:#6FB1FC,stroke:#333,stroke-width:2px
-
-    style DatasetAPI fill:#65E6A5,stroke:#333,stroke-width:2px
-    style EventAPI fill:#65E6A5,stroke:#333,stroke-width:2px
-    style InstrumentAPI fill:#65E6A5,stroke:#333,stroke-width:2px
-    style OrganismAPI fill:#65E6A5,stroke:#333,stroke-width:2px
-    style ProjectAPI fill:#65E6A5,stroke:#333,stroke-width:2px
-    style RecordAPI fill:#65E6A5,stroke:#333,stroke-width:2px
-
-    style AboutPage fill:#65E6A5,stroke:#333,stroke-width:2px
-    style DetailPage fill:#65E6A5,stroke:#333,stroke-width:2px
-    style VisualizationPage fill:#65E6A5,stroke:#333,stroke-width:2px
-
-    style DetailView fill:#65E6A5,stroke:#333,stroke-width:2px
-    style ActogramView fill:#65E6A5,stroke:#333,stroke-width:2px
-    style LineGraphView fill:#65E6A5,stroke:#333,stroke-width:2px
-    style MapView fill:#65E6A5,stroke:#333,stroke-width:2px
-
-    style Images fill:#65E6A5,stroke:#333,stroke-width:2px
-    style Graphs fill:#65E6A5,stroke:#333,stroke-width:2px
-    style Overview fill:#65E6A5,stroke:#333,stroke-width:2px
-
-    style ActogramComponent fill:#65E6A5,stroke:#333,stroke-width:2px
-    style LineGraphComponent fill:#65E6A5,stroke:#333,stroke-width:2px
-    style MapComponent fill:#65E6A5,stroke:#333,stroke-width:2px
-
-    style SensorSelectContext fill:#65E6A5,stroke:#333,stroke-width:2px
-
+    style Client-Side,Backend-Side,Data-Flow,Directory-Structure fill:#f9f,stroke:#333,stroke-width:2px
+    style Client-Side fill:#77DD77
+    style Backend-Side fill:#FFA07A
+    style Data-Flow fill:#ADD8E6
+    style Directory-Structure fill:#FFD700
 
 ```
 
