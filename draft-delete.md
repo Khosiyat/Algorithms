@@ -1,4 +1,4 @@
-# Project Architecture Diagram
+# System | Project Architecture Diagram
 
 ```mermaid
 graph TD
@@ -135,6 +135,37 @@ flowchart LR
 </details>
 
 # Directory Breakdown
+
+<details>
+    <summary><strong>Tree of the Root Directory</strong></summary>
+    
+```plaintext
+Root Directory
+├───api
+│   ├───dataset
+│   ├───event
+│   ├───instrument
+│   ├───organism
+│   ├───project
+│   └───record
+├───app
+│   ├───about
+│   ├───detail
+│   │   └───[id]
+│   └───visualisation
+│       └───[id]
+├───assets
+│   └───images
+├───components
+│   ├───graphs
+│   │   ├───actogram
+│   │   ├───line
+│   │   └───map
+│   └───overview
+└───hooks
+    └───sensorSelectContext
+```
+</details>
 
 <details>
   <summary><strong>api</strong></summary>
@@ -388,86 +419,3 @@ The project architecture consists of a well-organized directory structure featur
 The components directory includes subfolders for graphs (`actogram`, `line`, and `map`) and overview components, each designed for specific data visualization and table representation purposes. Custom hooks for managing sensor selections are housed in the hooks directory.
 
 The tech stack leverages **React.js** with **TypeScript** for the frontend, supported by libraries like **react-chartjs-2** for **charts**__, **react-leaflet** for **maps**__, **Axios** for **HTTP requests**__, **date-fns** for **date handling**__, and **ag-Grid** for efficient **data tables**__. The chosen libraries ensure robust, type-safe, and efficient handling of complex data visualization and interactions.
-
-<details>
-    <summary><strong>Tree of the Root Directory</strong></summary>
-    
-```plaintext
-Root Directory
-├───api
-│   ├───dataset
-│   ├───event
-│   ├───instrument
-│   ├───organism
-│   ├───project
-│   └───record
-├───app
-│   ├───about
-│   ├───detail
-│   │   └───[id]
-│   └───visualisation
-│       └───[id]
-├───assets
-│   └───images
-├───components
-│   ├───graphs
-│   │   ├───actogram
-│   │   ├───line
-│   │   └───map
-│   └───overview
-└───hooks
-    └───sensorSelectContext
-```
-
-
-```mermaid
-graph TD
-    Root_Directory{Root Directory} --> api{api}
-    Root_Directory --> app{app}
-    Root_Directory --> assets{assets}
-    Root_Directory --> components{components}
-    Root_Directory --> hooks{hooks}
-    api --> dataset{dataset}
-    api --> event{event}
-    api --> instrument{instrument}
-    api --> organism{organism}
-    api --> project{project}
-    api --> record{record}
-    app --> about{about}
-    app --> detail{detail}
-    app --> visualisation{visualisation}
-    detail --> id{id}
-    visualisation --> id{id}
-    assets --> images{images}
-    components --> graphs{graphs}
-    components --> overview{overview}
-    graphs --> actogram{actogram}
-    graphs --> line{line}
-    graphs --> map{map}
-    hooks --> sensorSelectContext{sensorSelectContext}
-    
-    style Root_Directory fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style api fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style app fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style assets fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style components fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style hooks fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style dataset fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style event fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style instrument fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style organism fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style project fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style record fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style about fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style detail fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style visualisation fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style images fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style graphs fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style overview fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style actogram fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style line fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style map fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style sensorSelectContext fill:#65E6A5,stroke:#333,stroke-width:2px;
-```
-
-</details>
