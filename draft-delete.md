@@ -1,6 +1,74 @@
 # Project Architecture Diagram
 
 ```mermaid
+graph TD
+    Client[Client] -->|HTTP Requests| Backend[Backend Server]
+    Backend -->|Fetches Data| Database[Database]
+    Backend -->|API Endpoints| api{api}
+    api --> dataset{dataset}
+    api --> event{event}
+    api --> instrument{instrument}
+    api --> organism{organism}
+    api --> project{project}
+    api --> record{record}
+    
+    Client -->|User Interactions| app{App}
+    app --> about{About}
+    app --> detail{Detail}
+    detail --> id{Detail Page}
+    app --> visualisation{Visualisation}
+    visualisation --> id{Visualisation Page}
+    
+    id --> actogram{Actogram}
+    id --> line{Line Graph}
+    id --> map{Map}
+    
+    Client -->|Loads| assets{Assets}
+    assets --> images{Images}
+    
+    Client -->|Uses| components{Components}
+    components --> graphs{Graphs}
+    components --> overview{Overview}
+    graphs --> actogram{Actogram}
+    graphs --> line{Line Graph}
+    graphs --> map{Map}
+    
+    Client -->|Utilizes| hooks{Hooks}
+    hooks --> sensorSelectContext{Sensor Select Context}
+    
+    style Client fill:#6FB1FC,stroke:#333,stroke-width:2px;
+    style Backend fill:#6FB1FC,stroke:#333,stroke-width:2px;
+    style Database fill:#6FB1FC,stroke:#333,stroke-width:2px;
+    style api fill:#6FB1FC,stroke:#333,stroke-width:2px;
+    style app fill:#6FB1FC,stroke:#333,stroke-width:2px;
+    style assets fill:#6FB1FC,stroke:#333,stroke-width:2px;
+    style components fill:#6FB1FC,stroke:#333,stroke-width:2px;
+    style hooks fill:#6FB1FC,stroke:#333,stroke-width:2px;
+    style dataset fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style event fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style instrument fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style organism fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style project fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style record fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style about fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style detail fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style visualisation fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style images fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style graphs fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style overview fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style actogram fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style line fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style map fill:#65E6A5,stroke:#333,stroke-width:2px;
+    style sensorSelectContext fill:#65E6A5,stroke:#333,stroke-width:2px;
+
+
+```
+
+
+<details>
+  <summary><strong>The System Architecture</strong></summary>
+
+```mermaid
 flowchart LR
     subgraph "Client-Side (Frontend)"
         Client(Browser) --> App
@@ -64,70 +132,7 @@ flowchart LR
     style Directory-Structure fill:#FFD700
 
 ```
-
-```mermaid
-graph TD
-    Client[Client] -->|HTTP Requests| Backend[Backend Server]
-    Backend -->|Fetches Data| Database[Database]
-    Backend -->|API Endpoints| api{api}
-    api --> dataset{dataset}
-    api --> event{event}
-    api --> instrument{instrument}
-    api --> organism{organism}
-    api --> project{project}
-    api --> record{record}
-    
-    Client -->|User Interactions| app{App}
-    app --> about{About}
-    app --> detail{Detail}
-    detail --> id{Detail Page}
-    app --> visualisation{Visualisation}
-    visualisation --> id{Visualisation Page}
-    
-    id --> actogram{Actogram}
-    id --> line{Line Graph}
-    id --> map{Map}
-    
-    Client -->|Loads| assets{Assets}
-    assets --> images{Images}
-    
-    Client -->|Uses| components{Components}
-    components --> graphs{Graphs}
-    components --> overview{Overview}
-    graphs --> actogram{Actogram}
-    graphs --> line{Line Graph}
-    graphs --> map{Map}
-    
-    Client -->|Utilizes| hooks{Hooks}
-    hooks --> sensorSelectContext{Sensor Select Context}
-    
-    style Client fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style Backend fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style Database fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style api fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style app fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style assets fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style components fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style hooks fill:#6FB1FC,stroke:#333,stroke-width:2px;
-    style dataset fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style event fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style instrument fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style organism fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style project fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style record fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style about fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style detail fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style visualisation fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style images fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style graphs fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style overview fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style actogram fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style line fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style map fill:#65E6A5,stroke:#333,stroke-width:2px;
-    style sensorSelectContext fill:#65E6A5,stroke:#333,stroke-width:2px;
-
-
-```
+</details>
 
 # Directory Breakdown
 
