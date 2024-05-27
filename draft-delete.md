@@ -4,8 +4,8 @@ graph TD
     B["biologging-sensor-data"]
     C["src"]
     D["app"]
-    E["<span style='color:blue'>about</span>"]
-    
+    E["about"]
+
     subgraph biologging-sensor-client
         B --> C
     end
@@ -17,5 +17,6 @@ graph TD
     end
 
     style E fill:#0f0,stroke:#333,stroke-width:2px;
+
 
 ```
