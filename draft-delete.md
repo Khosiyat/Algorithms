@@ -1,117 +1,99 @@
-# Git Specificities
+# Updating the API Data Model
 
 ## Keywords of folders and files
-Git, branching strategy, main branch, develop branch, feature branch, pull request, merge conflicts, code review, approval, commit messages
+API, data model, interface.ts, dataset, event, instrument, organism, project, record, TypeScript interfaces, Item, Contact, Taxon, GeographicWENS, RangeDateTime, Reference
 
 ## Directory
 ```
-biologging-sensor-client\biologging-sensor-data\src
+biologging-sensor-client\biologging-sensor-data\src\api
 ```
 
 ```
-├───public
-└───src
-    ├───api
-    │   ├───dataset
-    │   ├───event
-    │   ├───instrument
-    │   ├───organism
-    │   ├───project
-    │   └───record
-    ├───app
-    │   ├───about
-    │   ├───detail
-    │   │   └───[id]
-    │   └───visualisation
-    │       └───[id]
-    ├───assets
-    │   └───images
-    ├───components
-    │   ├───graphs
-    │   │   ├───actogram
-    │   │   ├───line
-    │   │   └───map
-    │   └───overview
-    └───hooks
-        └───sensorSelectContext
+├───api
+│   ├───dataset
+│   ├───event
+│   ├───instrument
+│   ├───organism
+│   ├───project
+│   └───record
+├───app
+│   ├───about
+│   ├───detail
+│   │   └───[id]
+│   └───visualisation
+│       └───[id]
+├───assets
+│   └───images
+├───components
+│   ├───graphs
+│   │   ├───actogram
+│   │   ├───line
+│   │   └───map
+│   └───overview
+└───hooks
+    └───sensorSelectContext
 ```
-
 
 ```mermaid
 graph TD
     A["biologging-sensor-client"] 
     B["biologging-sensor-data"]
-    C["<span style='color:blue'>src</span>"]
+    C["src"]
+    D["<span style='color:blue'>api</span>"]
 
     subgraph biologging-sensor-client
         B --> C
     end
+    subgraph biologging-sensor-data
+        C --> D
+    end
 
-    style C fill:#0f0,stroke:#333,stroke-width:2px;
+    style D fill:#0f0,stroke:#333,stroke-width:2px;
 
 ```
 
 
 <details>
   <summary><strong>See Further Details</strong></summary>
-## Branching Strategy
+## API Directory Structure
 
-- **Main Branch**: Contains the stable version of the code ready for production.
-- **Develop Branch**: Used for integration and testing of new features before merging into the main branch.
+The API directory typically follows a structured layout, containing subdirectories for different data types such as dataset, event, instrument, organism, project, and record. Changes to the API data model may necessitate modifications to files or interfaces within these specific subdirectories.
 
-## Workflow
+## API Files and Interfaces
 
-### Pull Latest Changes
+### Key Files
+Within each subdirectory, key files such as `interface.ts` play a crucial role in defining the API data model. These files contain TypeScript interfaces that outline the structure of data entities, including fields and their corresponding types.
 
-Before pushing any changes to the develop branch, ensure your branch is up-to-date by pulling the latest changes.
+### Specific Subdirectories
 
-```bash
-git checkout develop
-git pull origin develop
-```
+Each subdirectory under the API directory manages interactions for different types of data. Here are some examples:
 
-### Creating a New Feature Branch
+- **dataset:** Handles dataset-related API interactions.
+- **event:** Manages event-related API calls.
+- **instrument:** Responsible for instrument data API interactions.
+- **organism:** Deals with organism-related API calls.
+- **project:** Manages project-specific API interactions.
+- **record:** Handles record-related API data.
 
-For adding a new feature, create a new branch from the develop branch. The branch name should be descriptive of the feature being added.
+### Contents of `interface.ts`
 
-```bash
-git checkout develop
-git checkout -b feature/your-feature-name
-```
+The `interface.ts` file within each subdirectory contains TypeScript interfaces that define the structure of specific data types. Here are some common interfaces:
 
-### Making Changes and Committing
+- **Item:** Represents the main item structure with relevant fields.
+- **Contact:** Represents contact information with fields for `firstName`, `lastName`, `email`, `userid`, and `webpage`.
+- **Taxon:** Represents taxonomic coverage including fields for `taxonScientificName`, `taxonCommonName`, and `dyntexaId`.
+- **GeographicWENS:** Represents geographical coverage with coordinates and a description.
+- **RangeDateTime:** Represents temporal coverage with `startDatetime` and `endDatetime`.
+- **Reference:** Represents bibliographic citation with `DOI` and `title`.
 
-Make your changes in the new feature branch and commit them with clear, concise messages.
+## Steps to Update
 
-```bash
-git add .
-git commit -m "Add new feature: description of feature"
-```
+When changes occur in the API data model (e.g., adding new fields or modifying existing ones), developers need to follow these steps:
 
-### Push Feature Branch
+1. **Identification:** Identify the affected interfaces/files within the appropriate subdirectories.
 
-Push the feature branch to the remote repository.
+2. **Modification:** Update the identified interfaces/files to reflect the changes in the data model. This may involve adding new fields, modifying existing ones, or creating new interfaces if necessary.
 
-```bash
-git push origin feature/your-feature-name
-```
-
-### Creating a Pull Request
-
-Create a pull request (PR) from your feature branch to the develop branch for review by other team members.
-
-### Pull Request Process
-
-- **Review**: Every pull request should be reviewed by at least one other team member.
-- **Approval**: After the review, if the changes are approved, the pull request can be merged into the develop branch.
-- **Merge Conflicts**: If there are merge conflicts, team members should discuss and resolve them before merging.
-
-### Code Review and Approval
-
-Other team members will review the pull request. If approved, the feature branch will be merged into the develop branch. If there are merge conflicts, they will be discussed and resolved among the team members.
-
----
-
-See how the previous tech team's agreed workflow: [Git Workflow](https://github.com/biodiversitydata-se/biologging-sensor-client/blob/%2311-Architecture-Diagram-Technical-Walkthrough/Git-Workflow.md)
+3. **Maintaining Layout:** Ensure that the layout remains intact by adhering to consistent naming conventions and maintaining the overall structure of the data model files.
 
 </details>
