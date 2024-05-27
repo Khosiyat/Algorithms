@@ -1,14 +1,11 @@
 ```mermaid
 graph TD
-    A["<span style='color:blue'>biologging-sensor-client</span>"] 
-    B["<span style='color:blue'>biologging-sensor-data</span>"]
-    C["<span style='color:blue'>src</span>"]
-    D["<span style='color:blue'>app</span>"]
-    E["<span style='color:blue'>about</span>"]
-    F[detail]
-    G[[id]]
-    H[visualisation]
-    I[[id]]
+    A["biologging-sensor-client"] 
+    B["biologging-sensor-data"]
+    C["src"]
+    D["components"]
+    E["graphs"]
+    F["about"]
 
     subgraph biologging-sensor-client
         B --> C
@@ -19,11 +16,16 @@ graph TD
     subgraph src
         D --> E
     end
-    subgraph about
+    subgraph components
         E --> F
-        F --> G
-        E --> H
-        H --> I
     end
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#f9f,stroke:#333,stroke-width:2px;
+    style C fill:#f9f,stroke:#333,stroke-width:2px;
+    style D fill:#f9f,stroke:#333,stroke-width:2px;
+    style E fill:#f9f,stroke:#333,stroke-width:2px;
+    style F fill:#0f0,stroke:#333,stroke-width:2px;
+
 
 ```
