@@ -3,8 +3,9 @@ graph TD
     A["biologging-sensor-client"] 
     B["biologging-sensor-data"]
     C["src"]
-    D["app"]
-    E["about"]
+    D["components"]
+    E["graphs"]
+    F["about"]
 
     subgraph biologging-sensor-client
         B --> C
@@ -15,10 +16,15 @@ graph TD
     subgraph src
         D --> E
     end
+    subgraph components
+        E --> F
+    end
 
-    style E fill:#0f0,stroke:#333,stroke-width:2px;
-
-
-
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#f9f,stroke:#333,stroke-width:2px;
+    style C fill:#f9f,stroke:#333,stroke-width:2px;
+    style D fill:#f9f,stroke:#333,stroke-width:2px;
+    style E fill:#f9f,stroke:#333,stroke-width:2px;
+    style F fill:#0f0,stroke:#333,stroke-width:2px;
 
 ```
