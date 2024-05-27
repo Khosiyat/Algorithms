@@ -22,7 +22,7 @@ graph TD
     B["<span style='color:blue'>biologging-sensor-data</span>"]
     C["<span style='color:blue'>src</span>"]
     D["<span style='color:blue'>app</span>"]
-    E["<span style='color:blue'>about</span>"]
+    E["<span style='color:red'>about</span>"]
     F[detail]
     G[[id]]
     H[visualisation]
