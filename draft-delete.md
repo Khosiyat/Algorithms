@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A["<span style='color:blue'>about</span>"] 
     B[detail]
@@ -11,3 +12,4 @@ graph TD
         A --> D
         D --> E
     end
+```
