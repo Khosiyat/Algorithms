@@ -1,37 +1,11 @@
-# Updating the API Data Model
+# Adding a New Page
 
 ## Keywords of folders and files
-API, data model, interface.ts, dataset, event, instrument, organism, project, record, TypeScript interfaces, Item, Contact, Taxon, GeographicWENS, RangeDateTime, Reference
+src, app, page component, Contact, Contact.tsx, Contact.css, menu, navigation, link, layout component
 
 ## Directory
 ```
-biologging-sensor-client\biologging-sensor-data\src\api
-```
-
-```
-├───api
-│   ├───dataset
-│   ├───event
-│   ├───instrument
-│   ├───organism
-│   ├───project
-│   └───record
-├───app
-│   ├───about
-│   ├───detail
-│   │   └───[id]
-│   └───visualisation
-│       └───[id]
-├───assets
-│   └───images
-├───components
-│   ├───graphs
-│   │   ├───actogram
-│   │   ├───line
-│   │   └───map
-│   └───overview
-└───hooks
-    └───sensorSelectContext
+biologging-sensor-client\biologging-sensor-data\src\app
 ```
 
 ```mermaid
@@ -39,7 +13,7 @@ graph TD
     A["biologging-sensor-client"] 
     B["biologging-sensor-data"]
     C["src"]
-    D["<span style='color:blue'>api</span>"]
+    D["<span style='color:blue'>app</span>"]
 
     subgraph biologging-sensor-client
         B --> C
@@ -52,48 +26,33 @@ graph TD
 
 ```
 
-
 <details>
   <summary><strong>See Further Details</strong></summary>
-## API Directory Structure
+  
+Below are the steps to add a new page:
 
-The API directory typically follows a structured layout, containing subdirectories for different data types such as dataset, event, instrument, organism, project, and record. Changes to the API data model may necessitate modifications to files or interfaces within these specific subdirectories.
+## Create the Page Component
 
-## API Files and Interfaces
+1. **Navigate to the "src" folder and locate the "app" folder.** This is where the main application components reside.
 
-### Key Files
-Within each subdirectory, key files such as `interface.ts` play a crucial role in defining the API data model. These files contain TypeScript interfaces that outline the structure of data entities, including fields and their corresponding types.
+2. **Create a new folder for the new page component.** For example, if the new page is named "Contact," create a folder named "Contact" inside the "app" folder.
 
-### Specific Subdirectories
+3. **Within the new folder, create the necessary files for the page component.** Typically, this includes a TypeScript file (e.g., Contact.tsx) and a CSS file for styling (e.g., Contact.css).
 
-Each subdirectory under the API directory manages interactions for different types of data. Here are some examples:
+4. **Implement the logic and rendering code for the page component.** Write the TypeScript code to define the behavior and structure of the new page based on your requirements.
 
-- **dataset:** Handles dataset-related API interactions.
-- **event:** Manages event-related API calls.
-- **instrument:** Responsible for instrument data API interactions.
-- **organism:** Deals with organism-related API calls.
-- **project:** Manages project-specific API interactions.
-- **record:** Handles record-related API data.
+5. **Style the page component as needed.** Use the CSS file created for the page to apply styles and layout to the component.
 
-### Contents of `interface.ts`
+## Update the Menu/Navigation
 
-The `interface.ts` file within each subdirectory contains TypeScript interfaces that define the structure of specific data types. Here are some common interfaces:
+1. **Determine where you want the new page link to appear in the menu or navigation bar.** Consider the placement of the new page link in relation to existing links for optimal user experience.
 
-- **Item:** Represents the main item structure with relevant fields.
-- **Contact:** Represents contact information with fields for `firstName`, `lastName`, `email`, `userid`, and `webpage`.
-- **Taxon:** Represents taxonomic coverage including fields for `taxonScientificName`, `taxonCommonName`, and `dyntexaId`.
-- **GeographicWENS:** Represents geographical coverage with coordinates and a description.
-- **RangeDateTime:** Represents temporal coverage with `startDatetime` and `endDatetime`.
-- **Reference:** Represents bibliographic citation with `DOI` and `title`.
+2. **Locate the file responsible for rendering the menu/navigation.** This file is often found in a layout component or a separate navigation component within the project.
 
-## Steps to Update
+3. **Add a new link element for the new page in the menu/navigation component.** Ensure that the link points to the correct route for the new page component created earlier.
 
-When changes occur in the API data model (e.g., adding new fields or modifying existing ones), developers need to follow these steps:
+4. **Style the new menu item as needed.** Maintain consistency with existing menu items by applying appropriate styling to the new link element.
 
-1. **Identification:** Identify the affected interfaces/files within the appropriate subdirectories.
-
-2. **Modification:** Update the identified interfaces/files to reflect the changes in the data model. This may involve adding new fields, modifying existing ones, or creating new interfaces if necessary.
-
-3. **Maintaining Layout:** Ensure that the layout remains intact by adhering to consistent naming conventions and maintaining the overall structure of the data model files.
+By following these steps, you can successfully add a new page to the application.
 
 </details>
