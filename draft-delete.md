@@ -1,3 +1,5 @@
+
+# Necessary Documentation
 - [about_page](https://github.com/biodiversitydata-se/biologging-sensor-client/blob/%2311-Architecture-Diagram-Technical-Walkthrough/design-docs/about_page.md)
 - [add_diagram](https://github.com/biodiversitydata-se/biologging-sensor-client/blob/%2311-Architecture-Diagram-Technical-Walkthrough/design-docs/add_diagram.md)
 - [add_page](https://github.com/biodiversitydata-se/biologging-sensor-client/blob/%2311-Architecture-Diagram-Technical-Walkthrough/design-docs/add_page.md)
