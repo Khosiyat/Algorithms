@@ -1,29 +1,32 @@
-# Adding a New Diagram to the Client Application
+# Updating the About Page Content
 
 ## Keywords of folders and files
-components, graph, diagram, Actogram, Line Chart, Map, DiagramName.tsx, MapComponent.tsx, MapGraph.tsx, Polylines.tsx, MapGraph.css, Actogram.tsx, ActogramGraph.tsx, const.ts, interface.ts, api, dataset, event, instrument, organism, project, record
+src, app, about, page.tsx, about.tsx, about.css
 
 ## Directory
 ```
-biologging-sensor-client\biologging-sensor-data\src\components\graphs
+biologging-sensor-client\biologging-sensor-data\src\app\about
 ```
 
 ```
-├───graphs
-│   ├───actogram
-│   ├───line
-│   └───map
-└───overview
+├───about
+├───detail
+│   └───[id]
+└───visualisation
+    └───[id]
 ```
-
 
 ```mermaid
 graph TD
-    A["biologging-sensor-client"] 
-    B["biologging-sensor-data"]
-    C["src"]
-    D["components"]
-    E["<span style='color:blue'>graphs</span>"]
+    A["<span style='color:blue'>biologging-sensor-client</span>"] 
+    B["<span style='color:blue'>biologging-sensor-data</span>"]
+    C["<span style='color:blue'>src</span>"]
+    D["<span style='color:blue'>app</span>"]
+    E["<span style='color:blue'>about</span>"]
+    F[detail]
+    G[[id]]
+    H[visualisation]
+    I[[id]]
 
     subgraph biologging-sensor-client
         B --> C
@@ -34,83 +37,53 @@ graph TD
     subgraph src
         D --> E
     end
-
-    style E fill:#0f0,stroke:#333,stroke-width:2px;
+    subgraph about
+        E --> F
+        F --> G
+        E --> H
+        H --> I
+    end
 
 ```
+
+
+### Locate the Files
+
+1. Navigate to the `src` folder of your project.
+2. Inside the `src` folder, locate the `app` folder.
+3. Within the `app` folder, you'll find the `about` folder containing the relevant files for the About page:
+   - `page.tsx`
+   - `about.tsx`
+   - `about.css`
+
 
 
 <details>
   <summary><strong>See Further Details</strong></summary>
-## Main Steps
 
-To add a new diagram to the client application, follow these steps:
+## Locate the Files
 
-### 1. Identify the Diagram Type:
+1. Navigate to the `src` folder of your project.
+2. Inside the `src` folder, locate the `app` folder.
+3. Within the `app` folder, you'll find the `about` folder containing the relevant files for the About page:
+   - `page.tsx`
+   - `about.tsx`
+   - `about.css`
 
-Determine the type of diagram you want to add (e.g., Actogram, Line Chart, Map).
+## Open `about.tsx` for Content Modification
 
-### 2. Create a New Diagram Component:
+1. Open the `about.tsx` file using a text editor or integrated development environment (IDE).
 
-- Inside the "components" folder in the "src" directory, locate the "graph" folder.
-- Depending on the diagram type, you may need to create a new folder for the diagram within the "graph" folder.
-- Create a new file for the diagram component. For example, if adding a new line chart, create a new file named <DiagramName>.tsx inside the appropriate folder (e.g., "line" OR "chart" folder).
-- Implement the logic and rendering code for the diagram component based on your requirements.
-- Ensure to import any necessary dependencies and define interfaces or types as needed.
+## Update the Text Content
 
-### 3. Integrate the Component into Existing Pages:
+1. Within the `About` component in `about.tsx`, you'll find paragraphs and headings that you can modify.
+2. Update the text content according to your requirements. You can add, remove, or modify paragraphs, headings, and links as necessary.
+   - For example, if you want to update the description of SBDI Biologging tools, modify the paragraphs inside the component.
 
-- Identify the pages or components where you want to display the new diagram.
-- Import the newly created diagram component into these pages or components.
-- Pass any required data or props to the diagram component to populate it with data.
-- Ensure to update the rendering logic of the parent components to include the new diagram component.
+## Optional: Modify Styling in `about.css`
 
-### 4. Update Styling (if necessary):
+1. If you need to adjust the styling of the About page, you can do so in the `about.css` file located in the same directory.
+2. For instance, if you want to change the padding of the `section` element, you can modify the `padding-top` property in the `about.css` file.
 
-- Apply any necessary styling to the new diagram component to ensure it matches the visual style of the existing application.
-- You can add or modify CSS files associated with the diagram component for styling purposes.
-
-## Files to Edit or Create
-
-### For Line Chart (Example):
-
-- Inside the "graph" folder, locate the "line" folder.
-- Create a new file named <DiagramName>.tsx for the line chart component.
-- Implement the logic and rendering code for the line chart component.
-- Ensure to import any necessary dependencies and define interfaces or types as needed.
-
-### For Map Component (Example):
-
-- Inside the "graph" folder, locate the "map" folder.
-- Create or modify files such as MapComponent.tsx, MapGraph.tsx, Polylines.tsx, and MapGraph.css as necessary.
-- Implement the logic and rendering code for the map component and related files based on your requirements.
-
-### For Actogram Component (Example):
-
-- Inside the "graph" folder, locate the "actogram" folder.
-- Create or modify files such as Actogram.tsx, ActogramGraph.tsx, const.ts, and interface.ts as necessary.
-- Implement the logic and rendering code for the actogram component and related files based on your requirements.
-
-## API Interfaces
-
-API interfaces are imported from the following directory `api`:
-`biologging-sensor-client\biologging-sensor-data\src\api`
-
-Each subdirectory under api handles interactions for different types of data and includes the following key files:
-
-- dataset: Handles dataset-related API interactions.
-- event: Manages event-related API calls.
-- instrument: Responsible for instrument data API interactions.
-- organism: Deals with organism-related API calls.
-- project: Manages project-specific API interactions.
-- record: Handles record-related API data.
-
-Each subdirectory follows the same structure but is tailored to handle its specific type of data interactions.
-
-Example Import Statement:
-
-```typescript
-import { Record } from '@/api/record/record.interface';
-```
 
 </details>
