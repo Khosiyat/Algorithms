@@ -6,10 +6,9 @@ graph TD
     D[visualisation]
     E[[id]]
 
-    subgraph Tree
-        A --> B
+    subgraph about
         B --> C
-        A --> D
         D --> E
     end
+
 ```
