@@ -3,10 +3,9 @@ graph TD
     A["biologging-sensor-client"] 
     B["biologging-sensor-data"]
     C["src"]
-    D["components"]
-    E["graphs"]
-    F["about"]
-
+    D["app"]
+    E["<span style='color:blue'>about</span>"]
+    
     subgraph biologging-sensor-client
         B --> C
     end
@@ -16,16 +15,7 @@ graph TD
     subgraph src
         D --> E
     end
-    subgraph components
-        E --> F
-    end
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px;
-    style B fill:#f9f,stroke:#333,stroke-width:2px;
-    style C fill:#f9f,stroke:#333,stroke-width:2px;
-    style D fill:#f9f,stroke:#333,stroke-width:2px;
-    style E fill:#f9f,stroke:#333,stroke-width:2px;
-    style F fill:#0f0,stroke:#333,stroke-width:2px;
-
+    style E fill:#0f0,stroke:#333,stroke-width:2px;
 
 ```
