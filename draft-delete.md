@@ -6,8 +6,10 @@ graph TD
     D[visualisation]
     E[[id]]
 
-    subgraph about
+    subgraph Tree
+        A --> B
         B --> C
+        A --> D
         D --> E
     end
 
