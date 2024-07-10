@@ -6,6 +6,7 @@ The sliding window problem is a common technique used in programming to solve pr
 
 To make it easier to understand, we'll break it down using simple analogies and examples from everyday life.
 
+<details>
 ## Everyday Analogies
 
 ### 1. Watching a Movie
@@ -20,6 +21,9 @@ Think of reading a book where you want to remember the most exciting chapter. In
 
 Imagine you are at a market, and you want to find the cheapest combination of 3 items from a list of items with different prices. You start with the first 3 items, calculate their total price, and then move your window of 3 items forward, adjusting the total price as you add a new item and remove the old one.
 
+</details>
+
+<details>
 ## Breaking Down the Problem
 
 Let's break down the problem we are solving: finding the maximum sum of a subarray of size `k`.
@@ -85,6 +89,10 @@ The sliding window technique is a powerful tool for solving problems involving s
 
 For example, in the array `[1, 4, 2, 7, 3, 6, 5]` with `k = 3`, we want to find the subarray of 3 consecutive elements that has the highest sum.
 
+</details>
+
+
+<details>
 ### Steps to Solve
 
 1. Initialize two pointers, `start` and `end`, both set to the beginning of the array.
@@ -93,9 +101,11 @@ For example, in the array `[1, 4, 2, 7, 3, 6, 5]` with `k = 3`, we want to find 
 4. Once the window size reaches `k`, adjust the window by moving the `start` pointer to the right, subtracting elements from `current_sum`.
 5. Continue this process until the `end` pointer reaches the end of the array.
 
-## Breaking Down the Code
+</details>
 
-Let's look at the code step-by-step:
+
+<details>
+## Full Code BLock
 
 ```python
 def sliding_window_problem(arr, k):
@@ -116,9 +126,12 @@ def sliding_window_problem(arr, k):
             start += 1
 
     return current_sum
+```
 
 # Example usage
 arr = [1, 4, 2, 7, 3, 6, 5]
 k = 3
 result = sliding_window_problem(arr, k)
 print(f"The maximum sum subarray of size {k} is: {result}")
+
+</details>
