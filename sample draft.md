@@ -144,6 +144,7 @@ def sliding_window_problem(arr, k):
 
 ```python
 def sliding_window_problem(arr, k):
+    pass
 
 
 
