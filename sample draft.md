@@ -143,7 +143,7 @@ def sliding_window_problem(arr, k):
     <summary>Try Yourself! Submit Your Code!</summary>
 
 ```python
-
+def sliding_window_problem(arr, k):
 
 
 
