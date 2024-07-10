@@ -8,7 +8,6 @@ To make it easier to understand, we'll break it down using simple analogies and 
 
 <details>
     <summary>Everyday Analogies</summary>
-## Everyday Analogies
 
 ### 1. Watching a Movie
 
