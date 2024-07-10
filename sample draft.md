@@ -129,9 +129,9 @@ def sliding_window_problem(arr, k):
 ```
 
 # Example usage
-arr = [1, 4, 2, 7, 3, 6, 5]
-k = 3
-result = sliding_window_problem(arr, k)
-print(f"The maximum sum subarray of size {k} is: {result}")
+- arr = [1, 4, 2, 7, 3, 6, 5]
+- k = 3
+- result = sliding_window_problem(arr, k)
+- print(f"The maximum sum subarray of size {k} is: {result}")
 
 </details>
