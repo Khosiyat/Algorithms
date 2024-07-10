@@ -7,6 +7,7 @@ The sliding window problem is a common technique used in programming to solve pr
 To make it easier to understand, we'll break it down using simple analogies and examples from everyday life.
 
 <details>
+    <summary>Everyday Analogies</summary>
 ## Everyday Analogies
 
 ### 1. Watching a Movie
