@@ -25,7 +25,7 @@ Imagine you are at a market, and you want to find the cheapest combination of 3 
 </details>
 
 <details>
-## Breaking Down the Problem
+    <summary>Breaking Down the Problem</summary>
 
 Let's break down the problem we are solving: finding the maximum sum of a subarray of size `k`.
 
@@ -94,7 +94,7 @@ For example, in the array `[1, 4, 2, 7, 3, 6, 5]` with `k = 3`, we want to find 
 
 
 <details>
-### Steps to Solve
+    <summary>Steps to Solve</summary>
 
 1. Initialize two pointers, `start` and `end`, both set to the beginning of the array.
 2. Use a variable `current_sum` to keep track of the sum of the current window.
@@ -106,7 +106,7 @@ For example, in the array `[1, 4, 2, 7, 3, 6, 5]` with `k = 3`, we want to find 
 
 
 <details>
-## Full Code BLock
+    <summary>Full Code BLock</summary>
 
 ```python
 def sliding_window_problem(arr, k):
